@@ -164,8 +164,10 @@ async function loadData() {
   state.category = orderedPresent[0] || "laptops";
 }
 
+// מוצרים שאינם במלאי לא מוצגים באתר כלל - הלקוח לא אמור לראות ולבקש הצעת
+// מחיר על משהו שממילא לא זמין אצל הספק כרגע.
 function categoryProducts() {
-  return state.products.filter((p) => (p.category || "laptops") === state.category);
+  return state.products.filter((p) => (p.category || "laptops") === state.category && p.inStock);
 }
 
 function uniqueSortedValues(key, multi) {
@@ -312,6 +314,7 @@ function toggleFilterValue(key, value, checked) {
 
 function matchesFilters(p) {
   if ((p.category || "laptops") !== state.category) return false;
+  if (!p.inStock) return false;
 
   const fieldsByKey = Object.fromEntries(currentCategoryConfig().fields.map((f) => [f.key, f]));
 
