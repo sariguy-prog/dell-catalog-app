@@ -1,6 +1,10 @@
 // סקריפט סקרייפינג לקטלוג Dell באתר cms.co.il
 // מריצים ידנית עם: npm run scrape
 // הפלט נכתב ל- site/data/products.json כדי שהאתר הסטטי יוכל לקרוא אותו ישירות.
+//
+// תומך בכמה קטגוריות מוצרים (ר' מערך CATEGORIES למטה). כל קטגוריה נסרקת
+// ומאומתת בנפרד - אם קטגוריה אחת נכשלת בבדיקת התקינות, שאר הקטגוריות עדיין
+// מתעדכנות כרגיל והישנה של הקטגוריה שנכשלה נשארת כמו שהיא.
 
 import * as cheerio from "cheerio";
 import fs from "node:fs/promises";
@@ -11,16 +15,19 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUTPUT_PATH = path.join(__dirname, "..", "site", "data", "products.json");
 const BACKUP_PATH = path.join(__dirname, "..", "site", "data", "products.rejected.json");
 
-const BASE_URL = "https://cms.co.il/product-category/laptop-pc/brand-dell/";
 const CONTACT_EMAIL = "sariguy@gmail.com";
 const USER_AGENT = `SmartDeal-CatalogBot/1.0 (+contact: ${CONTACT_EMAIL})`;
 
 const MIN_DELAY_MS = 1000;
 const MAX_DELAY_MS = 2000;
-const MIN_ACCEPTABLE_RATIO = 0.9; // אם נאספו פחות מ-90% מהריצה הקודמת - לעצור ולהתריע
+const MIN_ACCEPTABLE_RATIO = 0.9; // אם נאספו פחות מ-90% מהריצה הקודמת - לעצור ולהתריע (לכל קטגוריה בנפרד)
 
-// סדר חשוב - מהספציפי לכללי, כדי לתפוס למשל "Dell Pro Max" לפני "Dell Pro"
-const FAMILY_PREFIXES = [
+// ============================================================
+// קטגוריות
+// ============================================================
+
+const LAPTOP_FAMILY_PREFIXES = [
+  // סדר חשוב - מהספציפי לכללי, כדי לתפוס למשל "Dell Pro Max" לפני "Dell Pro"
   "Dell Pro Max Premium",
   "Dell Pro Max Plus",
   "Dell Pro Max",
@@ -38,6 +45,8 @@ const FAMILY_PREFIXES = [
   "Dell",
 ];
 
+const MONITOR_FAMILY_PREFIXES = ["Dell UltraSharp", "Dell Pro", "Alienware", "Dell"];
+
 const KNOWN_COLORS = {
   "כסוף": "כסוף",
   "שחור": "שחור",
@@ -49,33 +58,6 @@ const KNOWN_COLORS = {
   gray: "אפור",
   white: "לבן",
 };
-
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
-function randomDelay() {
-  return MIN_DELAY_MS + Math.random() * (MAX_DELAY_MS - MIN_DELAY_MS);
-}
-
-async function fetchHtml(url) {
-  const res = await fetch(url, {
-    headers: { "User-Agent": USER_AGENT },
-  });
-  if (!res.ok) {
-    throw new Error(`בקשה נכשלה עבור ${url}: HTTP ${res.status}`);
-  }
-  return res.text();
-}
-
-function detectFamily(name) {
-  for (const prefix of FAMILY_PREFIXES) {
-    if (name.toLowerCase().startsWith(prefix.toLowerCase())) {
-      return prefix;
-    }
-  }
-  return "Dell";
-}
 
 function splitCpu(cpuToken) {
   if (!cpuToken) return { cpu_type: null, cpu_model: null };
@@ -97,10 +79,10 @@ function parseSizeToGb(token) {
   return unit === "TB" ? Math.round(value * 1024) : Math.round(value);
 }
 
-// שורת המפרט הקצרה מגיעה כרשימת ערכים מופרדים ב-" | " בסדר לא קבוע לגמרי
-// (למשל "Touch" יכול להופיע לפני או אחרי האחריות, ולפעמים גודל המסך חסר).
-// לכן מסווגים כל ערך לפי התבנית שלו ולא לפי מיקומו הקבוע.
-function parseAttributes(rawText) {
+// שורת המפרט הקצרה של מחשבים ניידים מגיעה כרשימת ערכים מופרדים ב-" | " בסדר
+// לא קבוע לגמרי (למשל "Touch" יכול להופיע לפני או אחרי האחריות, ולפעמים גודל
+// המסך חסר). לכן מסווגים כל ערך לפי התבנית שלו ולא לפי מיקומו הקבוע.
+function parseLaptopAttributes(rawText) {
   const tokens = rawText
     .split("|")
     .map((t) => t.trim())
@@ -173,7 +155,119 @@ function parseAttributes(rawText) {
   return result;
 }
 
-function parseProductCard($, el) {
+const RESOLUTION_LABEL_RE = /(4K|UHD\+?|QHD\+?|WQHD\+?|WUXGA|Full ?HD|FHD|Dual)/i;
+
+// שורת המפרט הקצרה של מסכים הרבה יותר לא אחידה מזו של מחשבים ניידים - מספר
+// הערכים משתנה (לפעמים אין קצב רענון, לפעמים אין אחריות בכלל), וגם השדה של
+// הרזולוציה עצמו הוא טקסט חופשי (יכול לכלול "QHD", תיאור כפול לפי כניסה
+// וכו'). לכן מזהים כל ערך לפי דפוס במקום לפי מיקום קבוע, בדיוק כמו במחשבים
+// ניידים.
+function parseMonitorAttributes(rawText) {
+  const tokens = rawText
+    .split("|")
+    .map((t) => t.trim())
+    .filter(Boolean);
+
+  const result = {
+    screen_size: null,
+    resolution_raw: null,
+    resolution: null,
+    resolution_label: null,
+    refresh_hz: null,
+    ports: [],
+    touch: false,
+    warranty_years: null,
+  };
+
+  if (tokens.length === 0) return result;
+
+  if (/^\d+(\.\d+)?'$/.test(tokens[0])) {
+    result.screen_size = tokens[0].replace("'", "");
+  }
+
+  for (let i = 1; i < tokens.length; i++) {
+    const token = tokens[i];
+
+    if (/^touch$/i.test(token)) {
+      result.touch = true;
+      continue;
+    }
+
+    const warrantyMatch = token.match(/^(\d+)\s*year/i);
+    if (warrantyMatch) {
+      result.warranty_years = parseInt(warrantyMatch[1], 10);
+      continue;
+    }
+
+    // מקטע הרזולוציה - היחיד שמכיל תבנית "מספר x מספר"
+    if (/\d{3,4}\s*[x×]\s*\d{3,4}/.test(token)) {
+      result.resolution_raw = token;
+      const resMatch = token.match(/(\d{3,4})\s*[x×]\s*(\d{3,4})/);
+      if (resMatch) result.resolution = `${resMatch[1]}x${resMatch[2]}`;
+      const hzMatch = token.match(/(\d+)\s*Hz/i);
+      if (hzMatch) result.refresh_hz = parseInt(hzMatch[1], 10);
+      const labelMatch = token.match(RESOLUTION_LABEL_RE);
+      if (labelMatch) result.resolution_label = labelMatch[1];
+      continue;
+    }
+
+    // מה שנשאר הוא רשימת חיבורים (Display Port, HDMI, USB-C וכו')
+    result.ports.push(
+      ...token
+        .split(",")
+        .map((p) => p.trim())
+        .filter(Boolean)
+    );
+  }
+
+  return result;
+}
+
+const CATEGORIES = [
+  {
+    id: "laptops",
+    label: "מחשבים ניידים",
+    url: "https://cms.co.il/product-category/laptop-pc/brand-dell/",
+    familyPrefixes: LAPTOP_FAMILY_PREFIXES,
+    parseAttributes: parseLaptopAttributes,
+  },
+  {
+    id: "monitors",
+    label: "מסכי מחשב",
+    url: "https://cms.co.il/product-category/screens/brand-dell/",
+    familyPrefixes: MONITOR_FAMILY_PREFIXES,
+    parseAttributes: parseMonitorAttributes,
+  },
+];
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function randomDelay() {
+  return MIN_DELAY_MS + Math.random() * (MAX_DELAY_MS - MIN_DELAY_MS);
+}
+
+async function fetchHtml(url) {
+  const res = await fetch(url, {
+    headers: { "User-Agent": USER_AGENT },
+  });
+  if (!res.ok) {
+    throw new Error(`בקשה נכשלה עבור ${url}: HTTP ${res.status}`);
+  }
+  return res.text();
+}
+
+function detectFamily(name, familyPrefixes) {
+  for (const prefix of familyPrefixes) {
+    if (name.toLowerCase().startsWith(prefix.toLowerCase())) {
+      return prefix;
+    }
+  }
+  return "Dell";
+}
+
+function parseProductCard($, el, category) {
   const $el = $(el);
   const classList = ($el.attr("class") || "").split(/\s+/);
 
@@ -188,11 +282,11 @@ function parseProductCard($, el) {
   const sku = skuText || null;
 
   const attributesText = $el.find(".product-attributes").first().text().trim();
-  const attributes = parseAttributes(attributesText);
+  const attributes = category.parseAttributes(attributesText);
 
   const inStock = classList.includes("instock");
 
-  const family = detectFamily(name);
+  const family = detectFamily(name, category.familyPrefixes);
 
   if (!name || !url || !sku) {
     return null;
@@ -201,6 +295,7 @@ function parseProductCard($, el) {
   return {
     sku,
     name,
+    category: category.id,
     family,
     url,
     image,
@@ -211,7 +306,8 @@ function parseProductCard($, el) {
 }
 
 // מטבלת "מפרט יצרן" בעמוד המוצר עצמו - הרבה יותר מפורטת מהתגית הקצרה ברשימה.
-// נשמר כרשימת {label, value} כדי לשמור על סדר וניסוח מקוריים מהספק.
+// נשמר כרשימת {label, value} כדי לשמור על סדר וניסוח מקוריים מהספק. משותף
+// לכל הקטגוריות - מבנה עמוד המוצר זהה.
 async function scrapeFullSpecs(productUrl) {
   const html = await fetchHtml(productUrl);
   const $ = cheerio.load(html);
@@ -226,9 +322,8 @@ async function scrapeFullSpecs(productUrl) {
   return specs;
 }
 
-async function scrapePage(pageNumber) {
-  const url =
-    pageNumber === 1 ? BASE_URL : `${BASE_URL}page/${pageNumber}/`;
+async function scrapeListingPage(category, pageNumber) {
+  const url = pageNumber === 1 ? category.url : `${category.url}page/${pageNumber}/`;
   const html = await fetchHtml(url);
   const $ = cheerio.load(html);
 
@@ -245,26 +340,26 @@ async function scrapePage(pageNumber) {
 
   const products = [];
   $(".electron-loop-product").each((_, el) => {
-    const product = parseProductCard($, el);
+    const product = parseProductCard($, el, category);
     if (product) products.push(product);
   });
 
   return { products, maxPage };
 }
 
-async function scrapeAll() {
-  console.log(`מתחיל סקרייפינג מ-${BASE_URL} ...`);
+async function scrapeCategoryListing(category) {
+  console.log(`\nמתחיל סקרייפינג "${category.label}" מ-${category.url} ...`);
 
-  const { products: firstPageProducts, maxPage } = await scrapePage(1);
+  const { products: firstPageProducts, maxPage } = await scrapeListingPage(category, 1);
   const allProducts = [...firstPageProducts];
   const totalPages = maxPage || 1;
 
-  console.log(`עמוד 1/${totalPages}: נאספו ${firstPageProducts.length} מוצרים`);
+  console.log(`  עמוד 1/${totalPages}: נאספו ${firstPageProducts.length} מוצרים`);
 
   for (let page = 2; page <= totalPages; page++) {
     await sleep(randomDelay());
-    const { products } = await scrapePage(page);
-    console.log(`עמוד ${page}/${totalPages}: נאספו ${products.length} מוצרים`);
+    const { products } = await scrapeListingPage(category, page);
+    console.log(`  עמוד ${page}/${totalPages}: נאספו ${products.length} מוצרים`);
     allProducts.push(...products);
   }
 
@@ -273,12 +368,14 @@ async function scrapeAll() {
   for (const p of allProducts) {
     bySku.set(p.sku, p);
   }
-  const uniqueProducts = Array.from(bySku.values());
+  return Array.from(bySku.values());
+}
 
-  console.log(`\nאוסף מפרט מלא מעמוד המוצר עבור ${uniqueProducts.length} מוצרים...`);
+async function scrapeFullSpecsForAll(products) {
+  console.log(`\nאוסף מפרט מלא מעמוד המוצר עבור ${products.length} מוצרים...`);
   let failedSpecs = 0;
-  for (let i = 0; i < uniqueProducts.length; i++) {
-    const product = uniqueProducts[i];
+  for (let i = 0; i < products.length; i++) {
+    const product = products[i];
     await sleep(randomDelay());
     try {
       product.fullSpecs = await scrapeFullSpecs(product.url);
@@ -287,49 +384,76 @@ async function scrapeAll() {
       product.fullSpecs = [];
       console.error(`  נכשל מפרט מלא עבור ${product.name} (${product.sku}): ${err.message}`);
     }
-    if ((i + 1) % 10 === 0 || i === uniqueProducts.length - 1) {
-      console.log(`  ${i + 1}/${uniqueProducts.length} מוצרים`);
+    if ((i + 1) % 10 === 0 || i === products.length - 1) {
+      console.log(`  ${i + 1}/${products.length} מוצרים`);
     }
   }
   if (failedSpecs > 0) {
     console.warn(`\n⚠️  לא ניתן היה לאסוף מפרט מלא עבור ${failedSpecs} מוצרים (נשארו עם מפרט קצר בלבד).`);
   }
-
-  return uniqueProducts;
 }
 
 async function loadExisting() {
   try {
     const raw = await fs.readFile(OUTPUT_PATH, "utf-8");
-    return JSON.parse(raw);
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : null;
   } catch {
     return null;
   }
 }
 
 async function main() {
-  const scraped = await scrapeAll();
-  const existing = await loadExisting();
-
-  console.log(`\nסה"כ נאספו ${scraped.length} מוצרים ייחודיים.`);
-
-  if (existing && Array.isArray(existing) && existing.length > 0) {
-    const ratio = scraped.length / existing.length;
-    if (ratio < MIN_ACCEPTABLE_RATIO) {
-      await fs.writeFile(BACKUP_PATH, JSON.stringify(scraped, null, 2), "utf-8");
-      console.error(
-        `\n⚠️  אזהרה: נאספו רק ${scraped.length} מוצרים לעומת ${existing.length} בריצה הקודמת ` +
-          `(${Math.round(ratio * 100)}%). ייתכן שמבנה ה-HTML של האתר השתנה.\n` +
-          `products.json הקיים לא נדרס. התוצאה החדשה נשמרה לבדיקה ידנית בקובץ:\n${BACKUP_PATH}`
-      );
-      process.exitCode = 1;
-      return;
-    }
+  const existing = (await loadExisting()) || [];
+  const existingByCategory = new Map();
+  for (const p of existing) {
+    const catId = p.category || "laptops"; // תאימות אחורה לקבצים ישנים בלי שדה category
+    if (!existingByCategory.has(catId)) existingByCategory.set(catId, []);
+    existingByCategory.get(catId).push(p);
   }
 
+  const finalProducts = [];
+  const rejected = [];
+  let anyRejected = false;
+
+  for (const category of CATEGORIES) {
+    const scraped = await scrapeCategoryListing(category);
+    const existingForCategory = existingByCategory.get(category.id) || [];
+
+    console.log(`  סה"כ "${category.label}": נאספו ${scraped.length} מוצרים ייחודיים.`);
+
+    if (existingForCategory.length > 0) {
+      const ratio = scraped.length / existingForCategory.length;
+      if (ratio < MIN_ACCEPTABLE_RATIO) {
+        anyRejected = true;
+        rejected.push({ category: category.id, label: category.label, products: scraped });
+        console.error(
+          `  ⚠️  אזהרה: נאספו רק ${scraped.length} מוצרים ב"${category.label}" לעומת ` +
+            `${existingForCategory.length} בריצה הקודמת (${Math.round(ratio * 100)}%). ` +
+            `ייתכן שמבנה ה-HTML של האתר השתנה - הקטגוריה הזו לא תעודכן הפעם.`
+        );
+        finalProducts.push(...existingForCategory);
+        continue;
+      }
+    }
+
+    finalProducts.push(...scraped);
+  }
+
+  await scrapeFullSpecsForAll(finalProducts.filter((p) => !p.fullSpecs));
+
   await fs.mkdir(path.dirname(OUTPUT_PATH), { recursive: true });
-  await fs.writeFile(OUTPUT_PATH, JSON.stringify(scraped, null, 2), "utf-8");
-  console.log(`\n✅ נשמר בהצלחה: ${OUTPUT_PATH}`);
+  await fs.writeFile(OUTPUT_PATH, JSON.stringify(finalProducts, null, 2), "utf-8");
+  console.log(`\n✅ נשמר בהצלחה: ${OUTPUT_PATH} (${finalProducts.length} מוצרים סה"כ)`);
+
+  if (anyRejected) {
+    await fs.writeFile(BACKUP_PATH, JSON.stringify(rejected, null, 2), "utf-8");
+    console.error(
+      `\n⚠️  קטגוריה אחת או יותר לא עודכנה (ר' אזהרות למעלה). התוצאה שנאספה בכל זאת ` +
+        `נשמרה לבדיקה ידנית בקובץ:\n${BACKUP_PATH}`
+    );
+    process.exitCode = 1;
+  }
 }
 
 main().catch((err) => {

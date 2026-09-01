@@ -1,6 +1,6 @@
 const WHATSAPP_NUMBER = "972506476817";
 
-const FILTER_FIELDS = [
+const LAPTOP_FILTER_FIELDS = [
   { key: "family", label: "משפחת מוצר" },
   { key: "cpu_type", label: "סוג מעבד" },
   { key: "cpu_model", label: "דגם מעבד" },
@@ -12,16 +12,16 @@ const FILTER_FIELDS = [
   { key: "color", label: "צבע" },
 ];
 
-const state = {
-  products: [],
-  recommendedSkus: new Set(),
-  activeFilters: {}, // key -> Set of selected values
-  touchOnly: false,
-  searchText: "",
-  selectedSkus: new Set(),
-};
+const MONITOR_FILTER_FIELDS = [
+  { key: "family", label: "משפחת מוצר" },
+  { key: "screen_size", label: "גודל מסך", format: (v) => `${v}"` },
+  { key: "resolution_label", label: "סוג רזולוציה" },
+  { key: "resolution", label: "רזולוציה" },
+  { key: "refresh_hz", label: "קצב רענון", format: (v) => `${v}Hz` },
+  { key: "ports", label: "חיבורים", multi: true },
+];
 
-function specLine(p) {
+function laptopSpecLine(p) {
   const parts = [];
   if (p.cpu_model) parts.push(`מעבד: ${p.cpu_model}`);
   if (p.ram_gb) parts.push(`זיכרון: ${p.ram_gb}GB`);
@@ -37,7 +37,7 @@ function specLine(p) {
   return parts.join(" | ");
 }
 
-function specListForMessage(p) {
+function laptopSpecListForMessage(p) {
   const parts = [];
   if (p.cpu_model) parts.push(`מעבד ${p.cpu_model}`);
   if (p.ram_gb) parts.push(`זיכרון ${p.ram_gb}GB`);
@@ -50,6 +50,83 @@ function specListForMessage(p) {
   if (p.touch) parts.push("מסך מגע");
   if (p.os) parts.push(p.os);
   return parts.join(", ");
+}
+
+function monitorSpecLine(p) {
+  const parts = [];
+  if (p.screen_size) parts.push(`מסך: ${p.screen_size}"`);
+  if (p.resolution) {
+    const label = p.resolution_label ? ` (${p.resolution_label})` : "";
+    parts.push(`רזולוציה: ${p.resolution}${label}`);
+  }
+  if (p.refresh_hz) parts.push(`קצב רענון: ${p.refresh_hz}Hz`);
+  if (Array.isArray(p.ports) && p.ports.length) parts.push(`חיבורים: ${p.ports.join(", ")}`);
+  if (p.touch) parts.push("מסך מגע");
+  if (p.warranty_years) parts.push(`אחריות: ${p.warranty_years} שנים`);
+  return parts.join(" | ");
+}
+
+function monitorSpecListForMessage(p) {
+  const parts = [];
+  if (p.screen_size) parts.push(`מסך ${p.screen_size}"`);
+  if (p.resolution) parts.push(`רזולוציה ${p.resolution}`);
+  if (p.refresh_hz) parts.push(`${p.refresh_hz}Hz`);
+  if (Array.isArray(p.ports) && p.ports.length) parts.push(`חיבורים ${p.ports.join(", ")}`);
+  if (p.touch) parts.push("מסך מגע");
+  return parts.join(", ");
+}
+
+// סדר קבוע להצגת טאבים - קטגוריה מוצגת רק אם יש בה מוצרים בפועל בנתונים
+const CATEGORY_CONFIG = {
+  laptops: {
+    label: "מחשבים ניידים",
+    fields: LAPTOP_FILTER_FIELDS,
+    specLine: laptopSpecLine,
+    specListForMessage: laptopSpecListForMessage,
+  },
+  monitors: {
+    label: "מסכי מחשב",
+    fields: MONITOR_FILTER_FIELDS,
+    specLine: monitorSpecLine,
+    specListForMessage: monitorSpecListForMessage,
+  },
+  desktops: {
+    label: "מחשבים נייחים",
+    fields: LAPTOP_FILTER_FIELDS,
+    specLine: laptopSpecLine,
+    specListForMessage: laptopSpecListForMessage,
+  },
+  aio: {
+    label: "מחשבי All In One",
+    fields: LAPTOP_FILTER_FIELDS,
+    specLine: laptopSpecLine,
+    specListForMessage: laptopSpecListForMessage,
+  },
+};
+const CATEGORY_ORDER = ["laptops", "monitors", "desktops", "aio"];
+
+const state = {
+  products: [],
+  recommendedSkus: new Set(),
+  category: null,
+  activeFilters: {}, // key -> Set of selected values
+  touchOnly: false,
+  searchText: "",
+  selectedSkus: new Set(),
+};
+
+function currentCategoryConfig() {
+  return CATEGORY_CONFIG[state.category] || CATEGORY_CONFIG.laptops;
+}
+
+function specLine(p) {
+  const config = CATEGORY_CONFIG[p.category] || CATEGORY_CONFIG.laptops;
+  return config.specLine(p);
+}
+
+function specListForMessage(p) {
+  const config = CATEGORY_CONFIG[p.category] || CATEGORY_CONFIG.laptops;
+  return config.specListForMessage(p);
 }
 
 function buildWhatsappUrl(text) {
@@ -81,13 +158,26 @@ async function loadData() {
   }
   state.products = products;
   state.recommendedSkus = new Set(recommended);
+
+  const presentCategories = new Set(products.map((p) => p.category || "laptops"));
+  const orderedPresent = CATEGORY_ORDER.filter((id) => presentCategories.has(id));
+  state.category = orderedPresent[0] || "laptops";
 }
 
-function uniqueSortedValues(key) {
+function categoryProducts() {
+  return state.products.filter((p) => (p.category || "laptops") === state.category);
+}
+
+function uniqueSortedValues(key, multi) {
   const values = new Set();
-  for (const p of state.products) {
-    if (p[key] !== null && p[key] !== undefined && p[key] !== "") {
-      values.add(p[key]);
+  for (const p of categoryProducts()) {
+    const raw = p[key];
+    if (multi) {
+      if (Array.isArray(raw)) raw.forEach((v) => v && values.add(v));
+      continue;
+    }
+    if (raw !== null && raw !== undefined && raw !== "") {
+      values.add(raw);
     }
   }
   const arr = [...values];
@@ -97,12 +187,52 @@ function uniqueSortedValues(key) {
   return arr.sort((a, b) => a.localeCompare(b, "he"));
 }
 
+function renderCategoryTabs() {
+  const container = document.getElementById("categoryTabs");
+  if (!container) return;
+
+  const presentCategories = new Set(state.products.map((p) => p.category || "laptops"));
+  const orderedPresent = CATEGORY_ORDER.filter((id) => presentCategories.has(id));
+
+  container.innerHTML = "";
+  if (orderedPresent.length <= 1) {
+    container.hidden = true;
+    return;
+  }
+  container.hidden = false;
+
+  for (const catId of orderedPresent) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "category-tab";
+    btn.classList.toggle("active", catId === state.category);
+    btn.textContent = CATEGORY_CONFIG[catId]?.label || catId;
+    btn.addEventListener("click", () => {
+      if (state.category === catId) return;
+      state.category = catId;
+      state.activeFilters = {};
+      state.touchOnly = false;
+      state.searchText = "";
+      state.selectedSkus.clear();
+      const searchInput = document.getElementById("searchInput");
+      if (searchInput) searchInput.value = "";
+      renderCategoryTabs();
+      renderFilterFields();
+      renderProducts();
+      renderSelectionBar();
+    });
+    container.appendChild(btn);
+  }
+}
+
 function renderFilterFields() {
   const container = document.getElementById("filterFields");
   container.innerHTML = "";
 
-  for (const field of FILTER_FIELDS) {
-    const values = uniqueSortedValues(field.key);
+  const fields = currentCategoryConfig().fields;
+
+  for (const field of fields) {
+    const values = uniqueSortedValues(field.key, field.multi);
     if (values.length === 0) continue;
 
     const group = document.createElement("div");
@@ -140,7 +270,7 @@ function renderFilterFields() {
     container.appendChild(group);
   }
 
-  // סינון מסך מגע - כן/לא
+  // סינון מסך מגע - כן/לא (משותף לכל הקטגוריות)
   const touchGroup = document.createElement("div");
   touchGroup.className = "filter-group";
   const touchLabel = document.createElement("label");
@@ -150,6 +280,7 @@ function renderFilterFields() {
   const touchCheckbox = document.createElement("input");
   touchCheckbox.type = "checkbox";
   touchCheckbox.id = "f-touch-only";
+  touchCheckbox.checked = state.touchOnly;
   const touchWrapper = document.createElement("label");
   touchWrapper.setAttribute("for", "f-touch-only");
   touchCheckbox.addEventListener("change", () => {
@@ -177,24 +308,26 @@ function toggleFilterValue(key, value, checked) {
 }
 
 function matchesFilters(p) {
+  if ((p.category || "laptops") !== state.category) return false;
+
+  const fieldsByKey = Object.fromEntries(currentCategoryConfig().fields.map((f) => [f.key, f]));
+
   for (const [key, valueSet] of Object.entries(state.activeFilters)) {
     if (valueSet.size === 0) continue;
-    if (!valueSet.has(p[key])) return false;
+    const field = fieldsByKey[key];
+    if (field && field.multi) {
+      const productValues = Array.isArray(p[key]) ? p[key] : [];
+      if (![...valueSet].some((v) => productValues.includes(v))) return false;
+    } else {
+      if (!valueSet.has(p[key])) return false;
+    }
   }
   if (state.touchOnly && !p.touch) return false;
 
   if (state.searchText) {
-    const haystack = [
-      p.name,
-      p.family,
-      p.cpu_type,
-      p.cpu_model,
-      p.gpu_type,
-      p.os,
-      p.sku,
-      p.screen_size,
-    ]
-      .filter(Boolean)
+    const haystack = Object.values(p)
+      .flatMap((v) => (Array.isArray(v) ? v : [v]))
+      .filter((v) => typeof v === "string" || typeof v === "number")
       .join(" ")
       .toLowerCase();
     if (!haystack.includes(state.searchText.toLowerCase())) return false;
@@ -354,11 +487,12 @@ function renderProducts() {
   const resultsCount = document.getElementById("resultsCount");
 
   const filtered = state.products.filter(matchesFilters);
+  const totalInCategory = categoryProducts().length;
 
   grid.innerHTML = "";
   filtered.forEach((p) => grid.appendChild(createProductCard(p)));
 
-  resultsCount.textContent = `${filtered.length} מוצרים מתוך ${state.products.length}`;
+  resultsCount.textContent = `${filtered.length} מוצרים מתוך ${totalInCategory}`;
   emptyState.hidden = filtered.length !== 0;
   grid.hidden = filtered.length === 0;
 }
@@ -432,6 +566,7 @@ function setupMobileFilters() {
 
 async function init() {
   await loadData();
+  renderCategoryTabs();
   renderFilterFields();
   renderProducts();
   renderSelectionBar();
