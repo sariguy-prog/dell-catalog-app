@@ -99,20 +99,27 @@ body {
   .site-header-content {
     position: absolute;
     inset: 0;
-    left: 36%;
-    right: 19%;
+    left: 38%;
+    right: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
+  /* גודל גופן יחסי לרוחב התצוגה (vw), כמו התמונה עצמה (width:100%) - כך
+     שהמלל שלנו גדל/קטן באותו יחס בדיוק כמו הבאנר, ולא "נשאר קטן" מולו
+     במסכים רחבים מאוד */
   .site-header h1 {
-    font-size: clamp(1.3rem, 0.9rem + 1.4vw, 2rem);
+    font-size: clamp(1.3rem, 2.1vw, 3.2rem);
   }
 
   .subtitle {
-    font-size: clamp(0.75rem, 0.6rem + 0.5vw, 0.92rem);
+    font-size: clamp(0.75rem, 0.85vw, 1.05rem);
+  }
+
+  .header-notice {
+    font-size: clamp(0.75rem, 0.75vw, 0.95rem);
   }
 }
 
