@@ -9094,7 +9094,7 @@
     "family": "Dell Pro Max",
     "url": "https://cms.co.il/product/dell-pro-max-16-mc16250-9/",
     "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25663-600x430.png",
-    "inStock": true,
+    "inStock": false,
     "rawSpec": "Ultra 7-265H | 1TB | 32GB | RTX PRO 2000 Blackwell | 16' | 3Year | Windows 11 Pro",
     "cpu_type": "Ultra 7",
     "cpu_model": "Ultra 7-265H",
