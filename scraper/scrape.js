@@ -47,6 +47,21 @@ const LAPTOP_FAMILY_PREFIXES = [
 
 const MONITOR_FAMILY_PREFIXES = ["Dell UltraSharp", "Dell Pro", "Alienware", "Dell"];
 
+const DESKTOP_FAMILY_PREFIXES = [
+  // סדר חשוב - מהספציפי לכללי
+  "Dell Pro Max",
+  "Dell Pro Precision",
+  "Dell Pro Tower Plus",
+  "Dell Pro Tower Essential",
+  "Dell Pro Tower",
+  "Dell Pro Micro Plus",
+  "Dell Pro Micro",
+  "Dell Tower Plus",
+  "Alienware",
+  "Dell Pro",
+  "Dell",
+];
+
 const KNOWN_COLORS = {
   "כסוף": "כסוף",
   "שחור": "שחור",
@@ -71,18 +86,27 @@ function splitCpu(cpuToken) {
   };
 }
 
+// בדיסקים של מחשבים נייחים לפעמים מגיע יותר מכונן אחד ("1TB SSD + 2TB SSD") -
+// לכן לא דורשים שהטוקן כולו יהיה בדיוק גודל+יחידה, רק שהוא *מכיל* כזה, ולוקחים
+// את הערך הראשון (הדיסק הראשי).
+function containsSizeToken(token) {
+  return /\d+(\.\d+)?\s*(GB|TB)\b/i.test(token);
+}
+
 function parseSizeToGb(token) {
-  const m = token.match(/^(\d+(?:\.\d+)?)\s*(GB|TB)$/i);
+  const m = token.match(/(\d+(?:\.\d+)?)\s*(GB|TB)\b/i);
   if (!m) return null;
   const value = parseFloat(m[1]);
   const unit = m[2].toUpperCase();
   return unit === "TB" ? Math.round(value * 1024) : Math.round(value);
 }
 
-// שורת המפרט הקצרה של מחשבים ניידים מגיעה כרשימת ערכים מופרדים ב-" | " בסדר
-// לא קבוע לגמרי (למשל "Touch" יכול להופיע לפני או אחרי האחריות, ולפעמים גודל
-// המסך חסר). לכן מסווגים כל ערך לפי התבנית שלו ולא לפי מיקומו הקבוע.
-function parseLaptopAttributes(rawText) {
+// שורת המפרט הקצרה של מחשבים ניידים ונייחים (CPU | דיסק | זיכרון | GPU |
+// אחריות | מערכת הפעלה, לפעמים עם גודל מסך/Touch למחשבים ניידים) מגיעה כרשימת
+// ערכים מופרדים ב-" | " בסדר לא קבוע לגמרי. לכן מסווגים כל ערך לפי התבנית שלו
+// ולא לפי מיקומו הקבוע - כך גם מחשבים נייחים (שאין להם מסך/touch) מסתדרים עם
+// אותה הפונקציה.
+function parsePcAttributes(rawText) {
   const tokens = rawText
     .split("|")
     .map((t) => t.trim())
@@ -127,7 +151,7 @@ function parseLaptopAttributes(rawText) {
       continue;
     }
 
-    if (/^\d+(\.\d+)?\s*(GB|TB)$/i.test(token)) {
+    if (containsSizeToken(token)) {
       sizeTokensInOrder.push(token);
       continue;
     }
@@ -229,7 +253,7 @@ const CATEGORIES = [
     label: "מחשבים ניידים",
     url: "https://cms.co.il/product-category/laptop-pc/brand-dell/",
     familyPrefixes: LAPTOP_FAMILY_PREFIXES,
-    parseAttributes: parseLaptopAttributes,
+    parseAttributes: parsePcAttributes,
   },
   {
     id: "monitors",
@@ -237,6 +261,20 @@ const CATEGORIES = [
     url: "https://cms.co.il/product-category/screens/brand-dell/",
     familyPrefixes: MONITOR_FAMILY_PREFIXES,
     parseAttributes: parseMonitorAttributes,
+  },
+  {
+    id: "desktops",
+    label: "מחשבים נייחים",
+    url: "https://cms.co.il/product-category/pc-nuc/brand-dell/",
+    familyPrefixes: DESKTOP_FAMILY_PREFIXES,
+    parseAttributes: parsePcAttributes,
+  },
+  {
+    id: "aio",
+    label: "מחשבי All In One",
+    url: "https://cms.co.il/product-category/all-in-one/brand-dell/",
+    familyPrefixes: LAPTOP_FAMILY_PREFIXES,
+    parseAttributes: parsePcAttributes,
   },
 ];
 

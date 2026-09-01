@@ -270,7 +270,10 @@ function renderFilterFields() {
     container.appendChild(group);
   }
 
-  // סינון מסך מגע - כן/לא (משותף לכל הקטגוריות)
+  // סינון מסך מגע - כן/לא (רק אם יש בכלל מוצר עם מסך מגע בקטגוריה הנוכחית)
+  const hasTouchProducts = categoryProducts().some((p) => p.touch);
+  if (!hasTouchProducts) return;
+
   const touchGroup = document.createElement("div");
   touchGroup.className = "filter-group";
   const touchLabel = document.createElement("label");

@@ -25651,5 +25651,6363 @@
         "value": "Power cable DisplayPort 1.4 cable – 1.80 m HDMI 2.1 cable – 1.80 m USB-C to USB Type-A 10Gbps cable – 1.0 m Thunderbolt 4 40Gbps active cable – 2.0 m"
       }
     ]
+  },
+  {
+    "sku": "OP-RD33-16808",
+    "name": "Dell Pro Tower Essential QVT1260",
+    "category": "desktops",
+    "family": "Dell Pro Tower Essential",
+    "url": "https://cms.co.il/product/dell-pro-tower-essential-qvt1260-3/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/12/QVT1260.png",
+    "inStock": false,
+    "rawSpec": "i5-14500 | 512GB | 16GB | Intel Graphics | 3Year | Ubuntu",
+    "cpu_type": "i5",
+    "cpu_model": "i5-14500",
+    "ram_gb": 16,
+    "disk_gb": 512,
+    "screen_size": null,
+    "gpu_type": "Intel Graphics",
+    "os": "Ubuntu",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Tower Essential QVT1260"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "לוח אם",
+        "value": "Intel Q670 Chipset"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel(R) Core(TM) i5-14500 vPro(R) (14 cores, up to 5.0GHz)"
+      },
+      {
+        "label": "מהירות",
+        "value": "up to 5.0 GHz"
+      },
+      {
+        "label": "מטמון",
+        "value": "20M Cache"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "16GB, 16GBx1, DDR5, 4800MT/s"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "1"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "64GB"
+      },
+      {
+        "label": "מהירות זיכרון",
+        "value": "4800 MHz"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "512GB M.2 PCIe NVMe Solid State Drive"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "MediaTek Wi-Fi 6 MT7920, 2×2, 802.11ax, MU-MIMO, Bluetooth wireless card"
+      },
+      {
+        "label": "Wireless",
+        "value": "MediaTek Wi-Fi 6 MT7920, 2×2, 802.11ax, MU-MIMO, Bluetooth wireless card"
+      },
+      {
+        "label": "כרטיס רשת",
+        "value": "Ethernet LAN 10/100/1000"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "Intel UHD Graphics 730"
+      },
+      {
+        "label": "USB",
+        "value": "Two USB 2.0 (480 Mbps) ports, One USB 3.2 Gen 1 (5 Gbps) Type-C port, Three USB 3.2 Gen 1 (5 Gbps) ports,Two USB 2.0 (480 Mbps) with SmartPower on ports"
+      },
+      {
+        "label": "RJ-45",
+        "value": "YES"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2x USB 2.0 Type-A 1x USB 3.2 Type-A 1x USB 3.2 Type-C"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Universal Audio Jack"
+      },
+      {
+        "label": "Display Port",
+        "value": "1x DisplayPort™ 1.4"
+      },
+      {
+        "label": "HDMI",
+        "value": "One HDMI 2.1 (TMDS) port"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Ubuntu 24.04 LTS (Long Term Support)"
+      },
+      {
+        "label": "הערות 1",
+        "value": "Dell Optical Mouse – MS116 (Black)"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Dell Wired Keyboard – KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "הערות 4",
+        "value": "Internal Speaker"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3Yr OnSite Warranty"
+      }
+    ]
+  },
+  {
+    "sku": "OP-RD33-16851",
+    "name": "Dell Pro Micro QCM1250",
+    "category": "desktops",
+    "family": "Dell Pro Micro",
+    "url": "https://cms.co.il/product/dell-pro-micro-qcm1250-4/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/12/desktop-qcm1250-micros-black-bestof-500-ng.png",
+    "inStock": true,
+    "rawSpec": "Ultra 5-235T | 512GB | 16GB | Intel Graphics | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 5",
+    "cpu_model": "Ultra 5-235T",
+    "ram_gb": 16,
+    "disk_gb": 512,
+    "screen_size": null,
+    "gpu_type": "Intel Graphics",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "OP-RD33-16599 Dell Pro Micro QCM1250"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מארז",
+        "value": "MFF"
+      },
+      {
+        "label": "לוח אם",
+        "value": "Intel® Q870 Chipset"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel(R) Core(TM) Ultra 5 235T (R) (13 TOPS NPU, 14 cores, up to 5.0GHz)"
+      },
+      {
+        "label": "מהירות",
+        "value": "up to 5.0 GHz"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "16 GB: 1 x 16 GB, DDR5"
+      },
+      {
+        "label": "מהירות זיכרון",
+        "value": "5600 MHz"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "1"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "32GB"
+      },
+      {
+        "label": "ממדים (ר x ע x ג)",
+        "value": "H=18.2cm, D=17.8cm, W=3.6cm"
+      },
+      {
+        "label": "משקל",
+        "value": "1.3KG"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "512GB SSD"
+      },
+      {
+        "label": "כרטיס רשת",
+        "value": "Ethernet LAN 10/100/1000"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel(R) Wi-Fi 6E AX211, 2×2, 802.11ax, Bluetooth(R)"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "Intel® UHD Graphics 770"
+      },
+      {
+        "label": "USB",
+        "value": "1 USB 3.2 Gen 1 (5 Gbps) port with SmartPower On 1 USB 3.2 Gen 1 (5 Gbps) port 2 USB 2.0 (480 Mbps) ports"
+      },
+      {
+        "label": "RJ-45",
+        "value": "YES"
+      },
+      {
+        "label": "Front Ports",
+        "value": "1 USB 3.2 Gen 2 (10 Gbps) Type-C® port 1 USB 3.2 Gen 1 (5 Gbps) port 1 Global Headset Jack"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Universal Audio Jack"
+      },
+      {
+        "label": "Display Port",
+        "value": "1 DisplayPort™ 1.4a port"
+      },
+      {
+        "label": "HDMI",
+        "value": "1 HDMI 2.1 PORT"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro"
+      },
+      {
+        "label": "הערות 1",
+        "value": "Dell Wired Mouse MS116 Black"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Dell Wired Keyboard – KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Intel(R) AX211 Wi-Fi 6E 2×2 and Bluetooth"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3Yr OnSite Warranty"
+      }
+    ]
+  },
+  {
+    "sku": "OP-RD33-16593",
+    "name": "Dell Pro Tower QCT1250",
+    "category": "desktops",
+    "family": "Dell Pro Tower",
+    "url": "https://cms.co.il/product/dell-pro-tower-qct1250-3/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25539-600x915.png",
+    "inStock": false,
+    "rawSpec": "Ultra 5-235 | 512GB | 16GB | Intel Graphics | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 5",
+    "cpu_model": "Ultra 5-235",
+    "ram_gb": 16,
+    "disk_gb": 512,
+    "screen_size": null,
+    "gpu_type": "Intel Graphics",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "OP-RD33-16593 Dell Pro Tower QCT1250"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "לוח אם",
+        "value": "Intel Q870"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel(R) Core(TM) Ultra 5 235 (13 TOPS NPU, 14 cores, up to 5.0GHz)"
+      },
+      {
+        "label": "מהירות",
+        "value": "up to 5.0GHz"
+      },
+      {
+        "label": "מטמון",
+        "value": "24MB Cache"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "16GB: 1 x 16GB, DDR5, up to 5600 MT/s,"
+      },
+      {
+        "label": "מהירות זיכרון",
+        "value": "5600 MHz"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "1"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "64GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "512GB SSD"
+      },
+      {
+        "label": "כרטיס רשת",
+        "value": "Ethernet LAN 10/100/1000"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "Intel Graphics"
+      },
+      {
+        "label": "USB",
+        "value": "2 USB 2.0 (480 Mbps) ports with SmartPower On 2 USB 3.2 Gen 1 (5 Gbps) ports 1 RJ-45 Ethernet port (1 Gbps)"
+      },
+      {
+        "label": "RJ-45",
+        "value": "YES"
+      },
+      {
+        "label": "VGA",
+        "value": "NO"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2 USB 2.0 (480 Mbps) ports 1 USB 3.2 Gen 1 (5 Gbps) Type-C® port 1 USB 3.2 Gen 1 (5 Gbps) port 1 global headset jack"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Universal Audio Jack"
+      },
+      {
+        "label": "Display Port",
+        "value": "1 DisplayPort™ 1.4a (HBR3) port"
+      },
+      {
+        "label": "HDMI",
+        "value": "1 HDMI 2.1 (TMDS) port"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro"
+      },
+      {
+        "label": "הערות 1",
+        "value": "Dell Wired Mouse – MS116 – Black"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Dell Wired Keyboard – KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "הערות 4",
+        "value": "Internal Speaker"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3Yr OnSite Warranty"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "180W"
+      }
+    ]
+  },
+  {
+    "sku": "OP-RD33-17072",
+    "name": "Dell Pro Micro QCM1250",
+    "category": "desktops",
+    "family": "Dell Pro Micro",
+    "url": "https://cms.co.il/product/dell-pro-micro-qcm1250/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/12/desktop-qcm1250-micros-black-bestof-500-ng.png",
+    "inStock": true,
+    "rawSpec": "Ultra 7-265T | 512GB | 16GB | Intel Graphics | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265T",
+    "ram_gb": 16,
+    "disk_gb": 512,
+    "screen_size": null,
+    "gpu_type": "Intel Graphics",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "OP-RD33-16598 Dell Pro Micro QCM1250"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מארז",
+        "value": "MFF"
+      },
+      {
+        "label": "לוח אם",
+        "value": "Intel® Q870 Chipset"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel(R) Core(TM) Ultra 7 265T (R) (13 TOPS NPU, 20 cores, up to 5.3GHz)"
+      },
+      {
+        "label": "מהירות",
+        "value": "up to 5.3GHz"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "16 GB: 1 x 16 GB, DDR5"
+      },
+      {
+        "label": "מהירות זיכרון",
+        "value": "5600 MHz"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "1"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "32GB"
+      },
+      {
+        "label": "ממדים (ר x ע x ג)",
+        "value": "H=18.2cm, D=17.8cm, W=3.6cm"
+      },
+      {
+        "label": "משקל",
+        "value": "1.3KG"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "512GB SSD"
+      },
+      {
+        "label": "כרטיס רשת",
+        "value": "Ethernet LAN 10/100/1000"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel(R) Wi-Fi 6E AX211, 2×2, 802.11ax, Bluetooth(R)"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "Intel® UHD Graphics 770"
+      },
+      {
+        "label": "USB",
+        "value": "1 USB 3.2 Gen 1 (5 Gbps) port with SmartPower On 1 USB 3.2 Gen 1 (5 Gbps) port 2 USB 2.0 (480 Mbps) ports"
+      },
+      {
+        "label": "RJ-45",
+        "value": "YES"
+      },
+      {
+        "label": "Front Ports",
+        "value": "1 USB 3.2 Gen 2 (10 Gbps) Type-C® port 1 USB 3.2 Gen 1 (5 Gbps) port 1 Global Headset Jack"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Universal Audio Jack"
+      },
+      {
+        "label": "Display Port",
+        "value": "1 DisplayPort™ 1.4a port"
+      },
+      {
+        "label": "HDMI",
+        "value": "1 HDMI 2.1 PORT"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro"
+      },
+      {
+        "label": "הערות 1",
+        "value": "Dell Wired Mouse MS116 Black"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Dell Wired Keyboard – KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Intel(R) AX211 Wi-Fi 6E 2×2 and Bluetooth"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3Yr OnSite Warranty"
+      }
+    ]
+  },
+  {
+    "sku": "OP-RD33-17068",
+    "name": "Dell Pro Tower Plus QBT1250",
+    "category": "desktops",
+    "family": "Dell Pro Tower Plus",
+    "url": "https://cms.co.il/product/dell-pro-tower-plus-qbt1250/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/11/L_25707.jpg",
+    "inStock": true,
+    "rawSpec": "Ultra 7-265 | 512GB | 16GB | Intel Graphics | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265",
+    "ram_gb": 16,
+    "disk_gb": 512,
+    "screen_size": null,
+    "gpu_type": "Intel Graphics",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Tower Plus QBT1250"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "לוח אם",
+        "value": "Intel® Q870"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel(R) Core(TM) Ultra 7 265 (R) (13 TOPS NPU, 20 cores, up to 5.3GHz)"
+      },
+      {
+        "label": "מהירות",
+        "value": "up to 5.3GHz"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "16GB: 1 x 16GB, DDR5, up to 5600 MT/s,"
+      },
+      {
+        "label": "מהירות זיכרון",
+        "value": "5600 MHz"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "3"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "512GB SSD"
+      },
+      {
+        "label": "כרטיס רשת",
+        "value": "Ethernet LAN 10/100/1000"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "Intel® UHD Graphics 770"
+      },
+      {
+        "label": "USB",
+        "value": "2 USB 2.0 (480 Mbps) ports with SmartPower On 2 USB 3.2 Gen 1 (5 Gbps) ports 1 RJ-45 Ethernet port (1 Gbps)"
+      },
+      {
+        "label": "RJ-45",
+        "value": "YES"
+      },
+      {
+        "label": "PS2",
+        "value": "No"
+      },
+      {
+        "label": "VGA",
+        "value": "NO"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2 USB 2.0 (480 Mbps) ports 1 USB 3.2 Gen 1 (5 Gbps) Type-C® port 1 USB 3.2 Gen 1 (5 Gbps) port 1 global headset jack"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Universal Audio Jack"
+      },
+      {
+        "label": "Display Port",
+        "value": "DisplayPort™ 1.4a (HBR2) port"
+      },
+      {
+        "label": "HDMI",
+        "value": "HDMI 2.1 (TMDS) port 1 DisplayPort™ 1.4a (HBR2) port"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro Eng"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "Dell Wired Mouse MS116 Black"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Dell Multimedia Keyboard – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "הערות 4",
+        "value": "Internal Speaker"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3Yr OnSite Warranty"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "360W"
+      }
+    ]
+  },
+  {
+    "sku": "OP-RD33-17071",
+    "name": "Dell Pro Micro Plus QBM1250",
+    "category": "desktops",
+    "family": "Dell Pro Micro Plus",
+    "url": "https://cms.co.il/product/dell-pro-micro-plus-qbm1250/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/12/desktop-qcm1250-micros-black-bestof-500-ng.png",
+    "inStock": true,
+    "rawSpec": "Ultra 7-265 | 512GB | 16GB | Intel Graphics | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265",
+    "ram_gb": 16,
+    "disk_gb": 512,
+    "screen_size": null,
+    "gpu_type": "Intel Graphics",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Micro Plus QBM1250 OP-RD33-17071"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מארז",
+        "value": "MFF"
+      },
+      {
+        "label": "לוח אם",
+        "value": "Intel® Q870 Chipset"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel(R) Core(TM) Ultra 7 265 (13 TOPS NPU, 20 cores, up to 5.3GHz)"
+      },
+      {
+        "label": "מהירות",
+        "value": "up to 5.3GHz"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "16 GB: 1 x 16 GB, DDR5"
+      },
+      {
+        "label": "מהירות זיכרון",
+        "value": "5600 MHz"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "1"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "64GB"
+      },
+      {
+        "label": "ממדים (ר x ע x ג)",
+        "value": "Height: 82 cm Width: 3.6 cm Depth: 17.8 cm"
+      },
+      {
+        "label": "משקל",
+        "value": "Starting at:1.22 KG"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "512GB SSD TLC"
+      },
+      {
+        "label": "כרטיס רשת",
+        "value": "Ethernet LAN 10/100/1000"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel(R) Wi-Fi 6E AX211, 2×2, 802.11ax, Bluetooth(R)"
+      },
+      {
+        "label": "סינון סוג כרטיס מסך",
+        "value": "INTEL"
+      },
+      {
+        "label": "סינון דגם כרטיס מסך",
+        "value": "Intel Graphics"
+      },
+      {
+        "label": "USB Front",
+        "value": "1 USB 3.2 Gen 2×2 (20 Gbps) Type-C® port\n1 USB 3.2 Gen 2 (10 Gbps) port\n1 USB 3.2 Gen 2 (10 Gbps) with PowerShare port"
+      },
+      {
+        "label": "USB Back",
+        "value": "1 USB 3.2 Gen 2 (10 Gbps) Type-C® port\n2 USB 3.2 Gen 2 (10 Gbps) ports\n1 USB 3.2 Gen 1 (5 Gbps) port with SmartPower On\n1 USB 3.2 Gen 1 (5 Gbps) port"
+      },
+      {
+        "label": "סינון אחריות",
+        "value": "3Year"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "Intel® UHD Graphics 770"
+      },
+      {
+        "label": "RJ-45",
+        "value": "1 RJ-45 Ethernet port (1Gbps)"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "עכבר",
+        "value": "Dell Wired Mouse – MS116 – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3Yr OnSite Warranty"
+      },
+      {
+        "label": "סינון נפח זכרון",
+        "value": "16GB"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16768",
+    "name": "Dell Pro Max Tower T2 FCT2250",
+    "category": "desktops",
+    "family": "Dell Pro Max",
+    "url": "https://cms.co.il/product/dell-pro-max-tower-t2-fct2250-19/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25303.png",
+    "inStock": false,
+    "rawSpec": "Ultra 7-265 | 512GB | 16GB | Intel Graphics | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265",
+    "ram_gb": 16,
+    "disk_gb": 512,
+    "screen_size": null,
+    "gpu_type": "Intel Graphics",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Max Tower T2 FCT2250 PM-RD33-16768"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 7 265 (30 MB cache, 20 cores, 20 threads, 1.8 GHz to 5.3 GHz, 65W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "16GB: 1 x 16 GB, DDR5, 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "3"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "512GB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "Intel Integrated Graphics"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 (1 GbE) Ethernet port"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "2×USB 2.0, 2×USB 3.2 Gen 2, 1×USB-C Gen 2×2, יציאה אופציונלית: Thunderbolt 4 (USB-C)"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2×USB 3.2 Gen 1 (אחד עם PowerShare), 1×USB-C Gen 2, 1×USB-C Gen 2×2 עם PowerShare"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "HDMI",
+        "value": "2 DisplayPort 1.4a HBR3 ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "500W Platinum Regulatory Label EMEA"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD-card slot"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Height: 387 mm/ Width: 187.00 mm/ Depth: 438 mm"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Dell Optical Mouse-MS116/ Dell Multimedia Keyboard-KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-15972",
+    "name": "Dell Pro Max Tower T2 FCT2250",
+    "category": "desktops",
+    "family": "Dell Pro Max",
+    "url": "https://cms.co.il/product/dell-pro-max-tower-t2-8/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25335.png",
+    "inStock": false,
+    "rawSpec": "Ultra 7-265 | 1TB | 16GB | NVIDIA RTX A1000 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265",
+    "ram_gb": 16,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX A1000",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Max Tower T2 PM-RD33-15972"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 7 265 (30 MB cache, 20 cores, 20 threads, 1.8 GHz to 5.3 GHz, 65W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "16GB: 1 x 16 GB, DDR5, 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "3"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA A1000, 8 GB GDDR6, 4 mDP to DP adapters"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 (1 GbE) Ethernet port"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "2×USB 2.0, 2×USB 3.2 Gen 2, 1×USB-C Gen 2×2, יציאה אופציונלית: Thunderbolt 4 (USB-C)"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2×USB 3.2 Gen 1 (אחד עם PowerShare), 1×USB-C Gen 2, 1×USB-C Gen 2×2 עם PowerShare"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "HDMI",
+        "value": "2 DisplayPort 1.4a HBR3 ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "500W Platinum Regulatory Label EMEA"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD-card slot"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Height: 387 mm/ Width: 187.00 mm/ Depth: 438 mm"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Dell Optical Mouse-MS116/ Dell Multimedia Keyboard-KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "XP-RD33-16567",
+    "name": "Dell Tower Plus EBT2250",
+    "category": "desktops",
+    "family": "Dell Tower Plus",
+    "url": "https://cms.co.il/product/dell-tower-plus-ebt2250-4/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25686.png",
+    "inStock": false,
+    "rawSpec": "Ultra 7-265 | 1TB | 16GB | NVIDIA RTX 5060 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265",
+    "ram_gb": 16,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX 5060",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Tower Plus EBT2250 XP-RD33-16567"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Mini Tower"
+      },
+      {
+        "label": "לוח אם",
+        "value": "Intel Z890"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 7 265 processor (20-Core, 66MB Total Cache, 1.8GHz to 5.3GHz)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "16 GB DDR5, 2 x 8 GB, 5200 MT/s"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "0"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "64GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB M.2 PCIe NVMe Solid State Drive"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel Wi-Fi 7 BE200 (2×2) 802.11ax Wireless LAN and Bluetooth"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA GeForce RTX 5060 8GB GDDR7"
+      },
+      {
+        "label": "רמקולים",
+        "value": "2x Stereo Audio"
+      },
+      {
+        "label": "RJ-45",
+        "value": "(1) Gigabit Ethernet"
+      },
+      {
+        "label": "Slots",
+        "value": "SD Card Reader (SD, SDHC, SDXC)"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "מארז",
+        "value": "Mini Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "Dell Pro Wireless Keyboard and Mouse – KM5221W – Hebrew (QWERTY)"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Front: (3) USB 3.2 Type-A Gen 1, (1) USB 3.2 Type-CGen 2 (no video/audio output), Headset jack, SD card slot"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Rear: (4) USB 2.0 Type-A, (2) USB 3.2 Type-A Gen 1, (1) Thunderbolt4 (includes 4K video output), (1) HDMI (includes 4K video output"
+      },
+      {
+        "label": "הערות 4",
+        "value": "Graphite"
+      },
+      {
+        "label": "הערות 5",
+        "value": "McAfee Business Protection 1-year"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "OP-RD33-17069",
+    "name": "Dell Pro Tower Plus QBT1250",
+    "category": "desktops",
+    "family": "Dell Pro Tower Plus",
+    "url": "https://cms.co.il/product/dell-pro-tower-plus-qbt1250-4/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/11/L_25707.jpg",
+    "inStock": false,
+    "rawSpec": "Ultra 7-265 | 1TB | 32GB | Intel Graphics | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "Intel Graphics",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Tower Plus QBT1250"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "לוח אם",
+        "value": "Intel® Q870"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel(R) Core(TM) Ultra 7 265 (R) (13 TOPS NPU, 20 cores, up to 5.3GHz)"
+      },
+      {
+        "label": "מהירות",
+        "value": "up to 5.3GHz"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 2 x 16GB, DDR5, up to 5600 MT/s,"
+      },
+      {
+        "label": "מהירות זיכרון",
+        "value": "5600 MHz"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "2"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD"
+      },
+      {
+        "label": "כרטיס רשת",
+        "value": "Ethernet LAN 10/100/1000"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "Intel® UHD Graphics 770"
+      },
+      {
+        "label": "USB",
+        "value": "2 USB 2.0 (480 Mbps) ports with SmartPower On 2 USB 3.2 Gen 1 (5 Gbps) ports 1 RJ-45 Ethernet port (1 Gbps)"
+      },
+      {
+        "label": "RJ-45",
+        "value": "YES"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2 USB 2.0 (480 Mbps) ports 1 USB 3.2 Gen 1 (5 Gbps) Type-C® port 1 USB 3.2 Gen 1 (5 Gbps) port 1 global headset jack"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Universal Audio Jack"
+      },
+      {
+        "label": "Display Port",
+        "value": "DisplayPort™ 1.4a (HBR2) port"
+      },
+      {
+        "label": "HDMI",
+        "value": "HDMI 2.1 (TMDS) port 1 DisplayPort™ 1.4a (HBR2) port"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro Eng"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "Dell Wired Mouse MS116 Black"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Dell Multimedia Keyboard – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "הערות 4",
+        "value": "360W Power Supply"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3Yr OnSite Warranty"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "360W"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16647",
+    "name": "Dell Pro Max Micro FCM2250",
+    "category": "desktops",
+    "family": "Dell Pro Max",
+    "url": "https://cms.co.il/product/dell-pro-max-micro-fcm2250/",
+    "image": "https://cms.co.il/wp-content/uploads/2023/10/Dell-Pro-Max-Micro-Desktop.3-600x625.png",
+    "inStock": false,
+    "rawSpec": "Ultra 7-265 | 1TB | 16GB | NVIDIA RTX A400 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265",
+    "ram_gb": 16,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX A400",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Max Micro FCM2250 PM-RD33-16647"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מארז",
+        "value": "MFF"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 7 265 (30 MB cache, 20 cores, 20 threads, 1.8 GHz to 5.3 GHz, 65W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "16GB: 1 x 16 GB, DDR5, 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "1"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "64GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel(R) Wi-Fi 7 BE200, 2×2, 802.11be, MU-MIMO, Bluetooth(R) 5.4 wireless card"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA RTX A400, 4 GB GDDR6, 4 mDP to DP adapters"
+      },
+      {
+        "label": "USB",
+        "value": "1 USB 3.2 Gen 2 (10 Gbps) Type-C, 2 USB 3.2 Gen 2 (10 Gbps) ports, 1 USB 3.2 Gen 1 (5 Gbps) port with Smart Power On, 1 USB 3.2 Gen 1 (5 Gbps) port"
+      },
+      {
+        "label": "כרטיס רשת",
+        "value": "RJ45 (10/100/1000 Mbps) Ethernet port"
+      },
+      {
+        "label": "Front Ports",
+        "value": "1 USB 3.2 Gen 2×2 (20 Gbps) Type-C®, 1 USB 3.2 Gen 2 (10 Gbps) with PowerShare, 1 USB 3.2 Gen 2 (10 Gbps)"
+      },
+      {
+        "label": "Audio Out",
+        "value": "Stereo speakers with Realtek ALC3204 Codec Audio Controller"
+      },
+      {
+        "label": "Display Port",
+        "value": "3 DisplayPort 1.4a (HBR3 support) ports"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro"
+      },
+      {
+        "label": "ממדים (ר x ע x ג)",
+        "value": "H=20.6CM,W=7.93CM,D=17.8CM"
+      },
+      {
+        "label": "משקל",
+        "value": "Starting weight 2.34 kg"
+      },
+      {
+        "label": "הערות 1",
+        "value": "Dell Wired Keyboard-KB216 – Hebrew (QWERTY) – Black, Dell Wired Mouse MS116 Black"
+      },
+      {
+        "label": "ספקי כח",
+        "value": "280W A/C Adapter, EPEAT5, 7.4MM Barrel"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport NBD On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-17022",
+    "name": "Dell Pro Max Tower T2 FCT2250",
+    "category": "desktops",
+    "family": "Dell Pro Max",
+    "url": "https://cms.co.il/product/dell-pro-max-tower-t2-fct2250-20/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25303.png",
+    "inStock": true,
+    "rawSpec": "Ultra 7-265 | 1TB | 16GB | Intel Graphics | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265",
+    "ram_gb": 16,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "Intel Graphics",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Max Tower T2 FCT2250 PM-RD33-17022"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 7 265 (30 MB cache, 20 cores, 20 threads, 1.8 GHz to 5.3 GHz, 65W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "16GB: 1 x 16 GB, DDR5, 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "3"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "Intel Integrated Graphics"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 (1 GbE) Ethernet port"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "2×USB 2.0, 2×USB 3.2 Gen 2, 1×USB-C Gen 2×2, יציאה אופציונלית: Thunderbolt 4 (USB-C)"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2×USB 3.2 Gen 1 (אחד עם PowerShare), 1×USB-C Gen 2, 1×USB-C Gen 2×2 עם PowerShare"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "HDMI",
+        "value": "2 DisplayPort 1.4a HBR3 ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "500W Platinum Regulatory Label EMEA"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD-card slot"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Height: 387 mm/ Width: 187.00 mm/ Depth: 438 mm"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Dell Optical Mouse-MS116/ Dell Multimedia Keyboard-KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16769",
+    "name": "Dell Pro Max Tower T2 FCT2250",
+    "category": "desktops",
+    "family": "Dell Pro Max",
+    "url": "https://cms.co.il/product/dell-pro-max-tower-t2-fct2250-5/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25333.png",
+    "inStock": false,
+    "rawSpec": "Ultra 7-265 | 1TB | 32GB | Intel Graphics | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "Intel Graphics",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Max Tower T2 FCT2250 PM-RD33-16769"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 7 265 (30 MB cache, 20 cores, 20 threads, 1.8 GHz to 5.3 GHz, 65W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 2 x 16 GB, DDR5, 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "2"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "Intel Integrated Graphics"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 (1 GbE) Ethernet port"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "2×USB 2.0, 2×USB 3.2 Gen 2, 1×USB-C Gen 2×2, יציאה אופציונלית: Thunderbolt 4 (USB-C)"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2×USB 3.2 Gen 1 (אחד עם PowerShare), 1×USB-C Gen 2, 1×USB-C Gen 2×2 עם PowerShare"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "HDMI",
+        "value": "2 DisplayPort 1.4a HBR3 ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "1500W Platinum Regulatory Label EMEA"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD-card slot"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Height: 387 mm/ Width: 187.00 mm/ Depth: 438 mm"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Dell Optical Mouse-MS116/ Dell Multimedia Keyboard-KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16795",
+    "name": "Dell Pro Max Tower T2 FCT2250",
+    "category": "desktops",
+    "family": "Dell Pro Max",
+    "url": "https://cms.co.il/product/dell-pro-max-tower-t2-fct2250-12/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25335.png",
+    "inStock": true,
+    "rawSpec": "Ultra 7-265 | 1TB | 16GB | NVIDIA RTX A1000 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265",
+    "ram_gb": 16,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX A1000",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Max Tower T2 FCT2250 PM-RD33-16795"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 7 265 (30 MB cache, 20 cores, 20 threads, 1.8 GHz to 5.3 GHz, 65W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "16GB: 1 x 16 GB, DDR5, 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "3"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA A1000, 8 GB GDDR6, 4 mDP to DP adapters"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 (1 GbE) Ethernet port"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "2×USB 2.0, 2×USB 3.2 Gen 2, 1×USB-C Gen 2×2, יציאה אופציונלית: Thunderbolt 4 (USB-C)"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2×USB 3.2 Gen 1 (אחד עם PowerShare), 1×USB-C Gen 2, 1×USB-C Gen 2×2 עם PowerShare"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "HDMI",
+        "value": "2 DisplayPort 1.4a HBR3 ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "500W Platinum Regulatory Label EMEA"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD-card slot"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Height: 387 mm/ Width: 187.00 mm/ Depth: 438 mm"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Dell Optical Mouse-MS116/ Dell Multimedia Keyboard-KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "OP-RD33-17070",
+    "name": "Dell Pro Tower Plus QBT1250",
+    "category": "desktops",
+    "family": "Dell Pro Tower Plus",
+    "url": "https://cms.co.il/product/dell-pro-tower-plus-qbt1250-5/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/11/L_25707.jpg",
+    "inStock": false,
+    "rawSpec": "Ultra 9-285 | 1TB | 32GB | Intel Graphics | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 9",
+    "cpu_model": "Ultra 9-285",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "Intel Graphics",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Tower Plus QBT1250"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "לוח אם",
+        "value": "Intel® Q870"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel(R) Core(TM) Ultra 9 285 (13 TOPS NPU, 24 cores, up to 5.6GHz)"
+      },
+      {
+        "label": "מהירות",
+        "value": "up to 5.6GHz"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 2 x 16GB, DDR5, up to 5600 MT/s,"
+      },
+      {
+        "label": "מהירות זיכרון",
+        "value": "5600 MHz"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "2"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD"
+      },
+      {
+        "label": "כרטיס רשת",
+        "value": "Ethernet LAN 10/100/1000"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "Intel® UHD Graphics 770"
+      },
+      {
+        "label": "USB",
+        "value": "2 USB 2.0 (480 Mbps) ports with SmartPower On 2 USB 3.2 Gen 1 (5 Gbps) ports 1 RJ-45 Ethernet port (1 Gbps)"
+      },
+      {
+        "label": "RJ-45",
+        "value": "YES"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2 USB 2.0 (480 Mbps) ports 1 USB 3.2 Gen 1 (5 Gbps) Type-C® port 1 USB 3.2 Gen 1 (5 Gbps) port 1 global headset jack"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Universal Audio Jack"
+      },
+      {
+        "label": "Display Port",
+        "value": "DisplayPort™ 1.4a (HBR2) port"
+      },
+      {
+        "label": "HDMI",
+        "value": "HDMI 2.1 (TMDS) port 1 DisplayPort™ 1.4a (HBR2) port"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro Eng"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "Dell Wired Mouse MS116 Black"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Dell Multimedia Keyboard – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "הערות 4",
+        "value": "360W Power Supply"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3Yr OnSite Warranty"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "360W"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-15974",
+    "name": "Dell Pro Max Tower T2 FCT2250",
+    "category": "desktops",
+    "family": "Dell Pro Max",
+    "url": "https://cms.co.il/product/dell-pro-max-tower-t2-6/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25337.png",
+    "inStock": false,
+    "rawSpec": "Ultra 7-265 | 1TB | 32GB | NVIDIA RTX 2000 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX 2000",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Max Tower T2 PM-RD33-15974"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 7 265 (30 MB cache, 20 cores, 20 threads, 1.8 GHz to 5.3 GHz, 65W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 2 x 16 GB, DDR5, 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "2"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA RTX 2000 ADA, 16 GB GDDR6, 4 mDP to DP adapters"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 (1 GbE) Ethernet port"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "2×USB 2.0, 2×USB 3.2 Gen 2, 1×USB-C Gen 2×2, יציאה אופציונלית: Thunderbolt 4 (USB-C)"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2×USB 3.2 Gen 1 (אחד עם PowerShare), 1×USB-C Gen 2, 1×USB-C Gen 2×2 עם PowerShare"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "HDMI",
+        "value": "2 DisplayPort 1.4a HBR3 ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "500W Platinum Regulatory Label EMEA"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD-card slot"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Height: 387 mm/ Width: 187.00 mm/ Depth: 438 mm"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Dell Optical Mouse-MS116/ Dell Multimedia Keyboard-KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16947",
+    "name": "Dell Pro Max Micro FCM2250",
+    "category": "desktops",
+    "family": "Dell Pro Max",
+    "url": "https://cms.co.il/product/dell-pro-max-micro-fcm2250-6/",
+    "image": "https://cms.co.il/wp-content/uploads/2023/10/Dell-Pro-Max-Micro-Desktop.3-600x625.png",
+    "inStock": true,
+    "rawSpec": "Ultra 7-265 | 1TB | 32GB | NVIDIA RTX A400 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX A400",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Max Micro FCM2250 PM-RD33-16947"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מארז",
+        "value": "MFF"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 7 265 (30 MB cache, 20 cores, 20 threads, 1.8 GHz to 5.3 GHz, 65W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 1 x 32 GB, DDR5, 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "1"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "64GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel(R) Wi-Fi 7 BE200, 2×2, 802.11be, MU-MIMO, Bluetooth(R) 5.4 wireless card"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA RTX A400, 4 GB GDDR6, 4 mDP to DP adapters"
+      },
+      {
+        "label": "USB",
+        "value": "1 USB 3.2 Gen 2 (10 Gbps) Type-C, 2 USB 3.2 Gen 2 (10 Gbps) ports, 1 USB 3.2 Gen 1 (5 Gbps) port with Smart Power On, 1 USB 3.2 Gen 1 (5 Gbps) port"
+      },
+      {
+        "label": "כרטיס רשת",
+        "value": "RJ45 (10/100/1000 Mbps) Ethernet port"
+      },
+      {
+        "label": "Front Ports",
+        "value": "1 USB 3.2 Gen 2×2 (20 Gbps) Type-C®, 1 USB 3.2 Gen 2 (10 Gbps) with PowerShare, 1 USB 3.2 Gen 2 (10 Gbps)"
+      },
+      {
+        "label": "Audio Out",
+        "value": "Stereo speakers with Realtek ALC3204 Codec Audio Controller"
+      },
+      {
+        "label": "Display Port",
+        "value": "3 DisplayPort 1.4a (HBR3 support) ports"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro"
+      },
+      {
+        "label": "ממדים (ר x ע x ג)",
+        "value": "H=20.6CM,W=7.93CM,D=17.8CM"
+      },
+      {
+        "label": "משקל",
+        "value": "Starting weight 2.34 kg"
+      },
+      {
+        "label": "הערות 1",
+        "value": "Dell Wired Keyboard-KB216 – Hebrew (QWERTY) – Black, Dell Wired Mouse MS116 Black"
+      },
+      {
+        "label": "ספקי כח",
+        "value": "280W A/C Adapter, EPEAT5, 7.4MM Barrel"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport NBD On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16909",
+    "name": "Dell Pro Precision 7 T1 PW7T1260",
+    "category": "desktops",
+    "family": "Dell Pro Precision",
+    "url": "https://cms.co.il/product/dell-pro-precision-7-t1-pw7t1260/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/05/ChatGPT-Image-May-12-2026-05_11_47-PM-600x637.png",
+    "inStock": true,
+    "rawSpec": "Ultra 7-265 | 1TB | 32GB | NVIDIA RTX A1000 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX A1000",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Precision 7 T1 PW7T1260 PM-RD33-16909"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 7 265 (30 MB cache, 20 cores, 20 threads, 1.8 GHz to 5.3 GHz, 65W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 1 x 32GB, DDR5, up to 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "3"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC M.2 2230 PCIe Gen4"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA(R) A1000, 8 GB GDDR6, 4 mDP to DP adapters"
+      },
+      {
+        "label": "RJ-45",
+        "value": "1 RJ45 (1Gbps) port"
+      },
+      {
+        "label": "Front Ports",
+        "value": "1XUSB-C 3.2 Gen 2×2 (20Gbps) port\n1XUSB-A 3.2 Gen 2 (10Gbps) port\n1XUSB-A 2.0 (480Mbps) with PowerShare port\n1XUSB-A 2.0 (480Mbps) port"
+      },
+      {
+        "label": "Rear Ports",
+        "value": "1XUSB-C 3.2 Gen 2 (10Gbps) port\n3XUSB-A 3.2 Gen 1 (5Gbps) ports\n2XUSB-A 2.0 (480Mbps) with PowerShare port\n3XDisplayPort™ 1.4a (HBR3 support) ports"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "DisplayPort",
+        "value": "3XDisplayPort™ 1.4a (HBR3 support) ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "Dell Pro Tower with 360W PSU, WW"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "משקל ומידות",
+        "value": "Height: 32.4 cm\nWidth: 15.4 cm\nDepth: 29.3 cm\nWeight (Minimum): 4.61 kg"
+      },
+      {
+        "label": "מקלדת ועכבר",
+        "value": "Dell Wired Keyboard – KB216 – Hebrew (QWERTY) – Black\nDell Wired Mouse – MS116 – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16796",
+    "name": "Dell Pro Max Tower T2 FCT2250",
+    "category": "desktops",
+    "family": "Dell Pro Max",
+    "url": "https://cms.co.il/product/dell-pro-max-tower-t2-fct2250-15/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25336.png",
+    "inStock": true,
+    "rawSpec": "Ultra 7-265K | 1TB | 32GB | NVIDIA RTX A1000 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265K",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX A1000",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Max Tower T2 FCT2250 PM-RD33-16796"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 7 265K (30 MB cache, 20 cores, 20 threads, 3.3 GHz to 5.5 GHz, 125W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 2 x 16 GB, DDR5, 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "2"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA A1000, 8 GB GDDR6, 4 mDP to DP adapters"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 (1 GbE) Ethernet port"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "2×USB 2.0, 2×USB 3.2 Gen 2, 1×USB-C Gen 2×2, יציאה אופציונלית: Thunderbolt 4 (USB-C)"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2×USB 3.2 Gen 1 (אחד עם PowerShare), 1×USB-C Gen 2, 1×USB-C Gen 2×2 עם PowerShare"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "HDMI",
+        "value": "2 DisplayPort 1.4a HBR3 ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "1500W Platinum Regulatory Label EMEA"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD-card slot"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Height: 387 mm/ Width: 187.00 mm/ Depth: 438 mm"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Dell Optical Mouse-MS116/ Dell Multimedia Keyboard-KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16913",
+    "name": "Dell Pro Precision 7 T1 PW7T1260",
+    "category": "desktops",
+    "family": "Dell Pro Precision",
+    "url": "https://cms.co.il/product/dell-pro-precision-7-t1-pw7t1260-5/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/05/ChatGPT-Image-May-12-2026-05_11_47-PM-600x637.png",
+    "inStock": false,
+    "rawSpec": "Ultra 7-265 | 1TB | 32GB | NVIDIA RTX 5060 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX 5060",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Precision 7 T1 PW7T1260 PM-RD33-16913"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 7 265 (30 MB cache, 20 cores, 20 threads, 1.8 GHz to 5.3 GHz, 65W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 1 x 32GB, DDR5, up to 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "3"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC M.2 2230 PCIe Gen4"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA GeForce RTX 5060, 8 GB GDDR7"
+      },
+      {
+        "label": "RJ-45",
+        "value": "1 RJ45 (1Gbps) port"
+      },
+      {
+        "label": "Front Ports",
+        "value": "1XUSB-C 3.2 Gen 2×2 (20Gbps) port\n1XUSB-A 3.2 Gen 2 (10Gbps) port\n1XUSB-A 2.0 (480Mbps) with PowerShare port\n1XUSB-A 2.0 (480Mbps) port"
+      },
+      {
+        "label": "Rear Ports",
+        "value": "1XUSB-C 3.2 Gen 2 (10Gbps) port\n3XUSB-A 3.2 Gen 1 (5Gbps) ports\n2XUSB-A 2.0 (480Mbps) with PowerShare port\n3XDisplayPort™ 1.4a (HBR3 support) ports"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "DisplayPort",
+        "value": "3XDisplayPort™ 1.4a (HBR3 support) ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "Dell Pro Tower with 360W PSU, WW"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro"
+      },
+      {
+        "label": "משקל ומידות",
+        "value": "Height: 32.4 cm\nWidth: 15.4 cm\nDepth: 29.3 cm\nWeight (Minimum): 4.61 kg"
+      },
+      {
+        "label": "מקלדת ועכבר",
+        "value": "Dell Wired Keyboard – KB216 – Hebrew (QWERTY) – Black\nDell Wired Mouse – MS116 – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-17023",
+    "name": "Dell Pro Max Tower T2 FCT2250",
+    "category": "desktops",
+    "family": "Dell Pro Max",
+    "url": "https://cms.co.il/product/dell-pro-max-tower-t2-fct2250-21/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25334.png",
+    "inStock": true,
+    "rawSpec": "Ultra 9-285K | 1TB | 32GB | Intel Graphics | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 9",
+    "cpu_model": "Ultra 9-285K",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "Intel Graphics",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Max Tower T2 FCT2250 PM-RD33-17023"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 9 285K (36 MB cache, 24 cores, 24 threads, 3.2 GHz to 5.7 GHz, 125W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 2 x 16 GB, DDR5, 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "2"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "Intel Integrated Graphics"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 (1 GbE) Ethernet port"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "2×USB 2.0, 2×USB 3.2 Gen 2, 1×USB-C Gen 2×2, יציאה אופציונלית: Thunderbolt 4 (USB-C)"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2×USB 3.2 Gen 1 (אחד עם PowerShare), 1×USB-C Gen 2, 1×USB-C Gen 2×2 עם PowerShare"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "HDMI",
+        "value": "2 DisplayPort 1.4a HBR3 ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "1500W Platinum Regulatory Label EMEA"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD-card slot"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Height: 387 mm/ Width: 187.00 mm/ Depth: 438 mm"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Dell Optical Mouse-MS116/ Dell Multimedia Keyboard-KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16948",
+    "name": "Dell Pro Max Micro FCM2250",
+    "category": "desktops",
+    "family": "Dell Pro Max",
+    "url": "https://cms.co.il/product/dell-pro-max-micro-fcm2250-5/",
+    "image": "https://cms.co.il/wp-content/uploads/2023/10/Dell-Pro-Max-Micro-Desktop.3-600x625.png",
+    "inStock": true,
+    "rawSpec": "Ultra 7-265 | 1TB | 32GB | NVIDIA RTX A1000 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX A1000",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Max Micro FCM2250 PM-RD33-16948"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מארז",
+        "value": "MFF"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 7 265 (30 MB cache, 20 cores, 20 threads, 1.8 GHz to 5.3 GHz, 65W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 1 x 32 GB, DDR5, 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "1"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "64GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel(R) Wi-Fi 7 BE200, 2×2, 802.11be, MU-MIMO, Bluetooth(R) 5.4 wireless card"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA A1000, 8 GB GDDR6, 4 mDP to DP adapters"
+      },
+      {
+        "label": "USB",
+        "value": "1 USB 3.2 Gen 2 (10 Gbps) Type-C, 2 USB 3.2 Gen 2 (10 Gbps) ports, 1 USB 3.2 Gen 1 (5 Gbps) port with Smart Power On, 1 USB 3.2 Gen 1 (5 Gbps) port"
+      },
+      {
+        "label": "כרטיס רשת",
+        "value": "RJ45 (10/100/1000 Mbps) Ethernet port"
+      },
+      {
+        "label": "Front Ports",
+        "value": "1 USB 3.2 Gen 2×2 (20 Gbps) Type-C®, 1 USB 3.2 Gen 2 (10 Gbps) with PowerShare, 1 USB 3.2 Gen 2 (10 Gbps)"
+      },
+      {
+        "label": "Audio Out",
+        "value": "Stereo speakers with Realtek ALC3204 Codec Audio Controller"
+      },
+      {
+        "label": "Display Port",
+        "value": "3 DisplayPort 1.4a (HBR3 support) ports"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro"
+      },
+      {
+        "label": "ממדים (ר x ע x ג)",
+        "value": "H=20.6CM,W=7.93CM,D=17.8CM"
+      },
+      {
+        "label": "משקל",
+        "value": "Starting weight 2.34 kg"
+      },
+      {
+        "label": "הערות 1",
+        "value": "Dell Wired Keyboard-KB216 – Hebrew (QWERTY) – Black, Dell Wired Mouse MS116 Black"
+      },
+      {
+        "label": "ספקי כח",
+        "value": "280W A/C Adapter, EPEAT5, 7.4MM Barrel"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport NBD On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16910",
+    "name": "Dell Pro Precision 7 T1 PW7T1260",
+    "category": "desktops",
+    "family": "Dell Pro Precision",
+    "url": "https://cms.co.il/product/dell-pro-precision-7-t1-pw7t1260-2/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/05/ChatGPT-Image-May-12-2026-05_11_47-PM-600x637.png",
+    "inStock": true,
+    "rawSpec": "Ultra 9-285 | 1TB | 32GB | NVIDIA RTX A1000 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 9",
+    "cpu_model": "Ultra 9-285",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX A1000",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Precision 7 T1 PW7T1260 PM-RD33-16910"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 9 285 (36 MB cache, 24 cores, 24 threads, 1.9 GHz to 5.6 GHz, 65W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 1 x 32GB, DDR5, up to 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "3"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC M.2 2230 PCIe Gen4"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA(R) A1000, 8 GB GDDR6, 4 mDP to DP adapters"
+      },
+      {
+        "label": "RJ-45",
+        "value": "1 RJ45 (1Gbps) port"
+      },
+      {
+        "label": "Front Ports",
+        "value": "1XUSB-C 3.2 Gen 2×2 (20Gbps) port\n1XUSB-A 3.2 Gen 2 (10Gbps) port\n1XUSB-A 2.0 (480Mbps) with PowerShare port\n1XUSB-A 2.0 (480Mbps) port"
+      },
+      {
+        "label": "Rear Ports",
+        "value": "1XUSB-C 3.2 Gen 2 (10Gbps) port\n3XUSB-A 3.2 Gen 1 (5Gbps) ports\n2XUSB-A 2.0 (480Mbps) with PowerShare port\n3XDisplayPort™ 1.4a (HBR3 support) ports"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "DisplayPort",
+        "value": "3XDisplayPort™ 1.4a (HBR3 support) ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "Dell Pro Tower with 360W PSU, WW"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro"
+      },
+      {
+        "label": "משקל ומידות",
+        "value": "Height: 32.4 cm\nWidth: 15.4 cm\nDepth: 29.3 cm\nWeight (Minimum): 4.61 kg"
+      },
+      {
+        "label": "מקלדת ועכבר",
+        "value": "Dell Wired Keyboard – KB216 – Hebrew (QWERTY) – Black\nDell Wired Mouse – MS116 – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16911",
+    "name": "Dell Pro Precision 7 T1 PW7T1260",
+    "category": "desktops",
+    "family": "Dell Pro Precision",
+    "url": "https://cms.co.il/product/dell-pro-precision-7-t1-pw7t1260-3/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/05/ChatGPT-Image-May-12-2026-05_11_47-PM-600x637.png",
+    "inStock": true,
+    "rawSpec": "Ultra 7-265 | 1TB | 32GB | NVIDIA RTX 2000 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX 2000",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Precision 7 T1 PW7T1260 PM-RD33-16911"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 7 265 (30 MB cache, 20 cores, 20 threads, 1.8 GHz to 5.3 GHz, 65W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 1 x 32GB, DDR5, up to 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "3"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC M.2 2230 PCIe Gen4"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA(R) RTX(TM) 2000 ADA, 16 GB GDDR6, 4 mDP to DP adapters"
+      },
+      {
+        "label": "RJ-45",
+        "value": "1 RJ45 (1Gbps) port"
+      },
+      {
+        "label": "Front Ports",
+        "value": "1XUSB-C 3.2 Gen 2×2 (20Gbps) port\n1XUSB-A 3.2 Gen 2 (10Gbps) port\n1XUSB-A 2.0 (480Mbps) with PowerShare port\n1XUSB-A 2.0 (480Mbps) port"
+      },
+      {
+        "label": "Rear Ports",
+        "value": "1XUSB-C 3.2 Gen 2 (10Gbps) port\n3XUSB-A 3.2 Gen 1 (5Gbps) ports\n2XUSB-A 2.0 (480Mbps) with PowerShare port\n3XDisplayPort™ 1.4a (HBR3 support) ports"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "DisplayPort",
+        "value": "3XDisplayPort™ 1.4a (HBR3 support) ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "Dell Pro Tower with 360W PSU, WW"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro"
+      },
+      {
+        "label": "משקל ומידות",
+        "value": "Height: 32.4 cm\nWidth: 15.4 cm\nDepth: 29.3 cm\nWeight (Minimum): 4.61 kg"
+      },
+      {
+        "label": "מקלדת ועכבר",
+        "value": "Dell Wired Keyboard – KB216 – Hebrew (QWERTY) – Black\nDell Wired Mouse – MS116 – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "XP-RD33-16834",
+    "name": "Dell Tower Plus EBT2250",
+    "category": "desktops",
+    "family": "Dell Tower Plus",
+    "url": "https://cms.co.il/product/dell-tower-plus-ebt2250-6/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25686.png",
+    "inStock": false,
+    "rawSpec": "Ultra 7-265 | 1TB | 32GB | NVIDIA RTX 5070 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX 5070",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Tower Plus EBT2250 XP-RD33-16834"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Mini Tower"
+      },
+      {
+        "label": "לוח אם",
+        "value": "Intel Z890"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 7 265 processor (20-Core, 66MB Total Cache, 1.8GHz to 5.3GHz)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32 GB DDR5, 2 x 16 GB, 5200 MT/s"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "0"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "64GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB M.2 PCIe NVMe Solid State Drive"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel Wi-Fi 7 BE200 (2×2) 802.11ax Wireless LAN and Bluetooth"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA® GeForce RTX™ 5070 12GB GDDR7"
+      },
+      {
+        "label": "רמקולים",
+        "value": "2x Stereo Audio"
+      },
+      {
+        "label": "RJ-45",
+        "value": "(1) Gigabit Ethernet"
+      },
+      {
+        "label": "Slots",
+        "value": "SD Card Reader (SD, SDHC, SDXC)"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "מארז",
+        "value": "Mini Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "Dell Pro Wireless Keyboard and Mouse – KM5221W – Hebrew (QWERTY)"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Front: (3) USB 3.2 Type-A Gen 1, (1) USB 3.2 Type-CGen 2 (no video/audio output), Headset jack, SD card slot"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Rear: (4) USB 2.0 Type-A, (2) USB 3.2 Type-A Gen 1, (1) Thunderbolt4 (includes 4K video output), (1) HDMI (includes 4K video output"
+      },
+      {
+        "label": "הערות 4",
+        "value": "Graphite"
+      },
+      {
+        "label": "הערות 5",
+        "value": "McAfee Business Protection 1-year"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16949",
+    "name": "Dell Pro Max Micro FCM2250",
+    "category": "desktops",
+    "family": "Dell Pro Max",
+    "url": "https://cms.co.il/product/dell-pro-max-micro-fcm2250-7/",
+    "image": "https://cms.co.il/wp-content/uploads/2023/10/Dell-Pro-Max-Micro-Desktop.3-600x625.png",
+    "inStock": true,
+    "rawSpec": "Ultra 9-285 | 1TB | 32GB | NVIDIA RTX A1000 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 9",
+    "cpu_model": "Ultra 9-285",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX A1000",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Max Micro FCM2250 PM-RD33-16949"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מארז",
+        "value": "MFF"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 9 285 (36 MB cache, 24 cores, 24 threads, 1.9 GHz to 5.6 GHz, 65W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 1 x 32 GB, DDR5, 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "1"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "64GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel(R) Wi-Fi 7 BE200, 2×2, 802.11be, MU-MIMO, Bluetooth(R) 5.4 wireless card"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA A1000, 8 GB GDDR6, 4 mDP to DP adapters"
+      },
+      {
+        "label": "USB",
+        "value": "1 USB 3.2 Gen 2 (10 Gbps) Type-C, 2 USB 3.2 Gen 2 (10 Gbps) ports, 1 USB 3.2 Gen 1 (5 Gbps) port with Smart Power On, 1 USB 3.2 Gen 1 (5 Gbps) port"
+      },
+      {
+        "label": "כרטיס רשת",
+        "value": "RJ45 (10/100/1000 Mbps) Ethernet port"
+      },
+      {
+        "label": "Front Ports",
+        "value": "1 USB 3.2 Gen 2×2 (20 Gbps) Type-C®, 1 USB 3.2 Gen 2 (10 Gbps) with PowerShare, 1 USB 3.2 Gen 2 (10 Gbps)"
+      },
+      {
+        "label": "Audio Out",
+        "value": "Stereo speakers with Realtek ALC3204 Codec Audio Controller"
+      },
+      {
+        "label": "Display Port",
+        "value": "3 DisplayPort 1.4a (HBR3 support) ports"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro"
+      },
+      {
+        "label": "ממדים (ר x ע x ג)",
+        "value": "H=20.6CM,W=7.93CM,D=17.8CM"
+      },
+      {
+        "label": "משקל",
+        "value": "Starting weight 2.34 kg"
+      },
+      {
+        "label": "הערות 1",
+        "value": "Dell Wired Keyboard-KB216 – Hebrew (QWERTY) – Black, Dell Wired Mouse MS116 Black"
+      },
+      {
+        "label": "ספקי כח",
+        "value": "280W A/C Adapter, EPEAT5, 7.4MM Barrel"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport NBD On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16890",
+    "name": "Dell Pro Max Tower T2 FCT2250",
+    "category": "desktops",
+    "family": "Dell Pro Max",
+    "url": "https://cms.co.il/product/dell-pro-max-tower-t2-fct2250-10/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25337.png",
+    "inStock": true,
+    "rawSpec": "Ultra 7-265 | 1TB | 32GB | NVIDIA RTX 2000 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX 2000",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Max Tower T2 FCT2250 PM-RD33-16890"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 7 265 (30 MB cache, 20 cores, 20 threads, 1.8 GHz to 5.3 GHz, 65W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 2 x 16 GB, DDR5, 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "2"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA RTX 2000 ADA, 16 GB GDDR6, 4 mDP to DP adapters"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 (1 GbE) Ethernet port"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "2×USB 2.0, 2×USB 3.2 Gen 2, 1×USB-C Gen 2×2, יציאה אופציונלית: Thunderbolt 4 (USB-C)"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2×USB 3.2 Gen 1 (אחד עם PowerShare), 1×USB-C Gen 2, 1×USB-C Gen 2×2 עם PowerShare"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "HDMI",
+        "value": "2 DisplayPort 1.4a HBR3 ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "500W Platinum Regulatory Label EMEA"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD-card slot"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Height: 387 mm/ Width: 187.00 mm/ Depth: 438 mm"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Dell Optical Mouse-MS116/ Dell Multimedia Keyboard-KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16912",
+    "name": "Dell Pro Precision 7 T1 PW7T1260",
+    "category": "desktops",
+    "family": "Dell Pro Precision",
+    "url": "https://cms.co.il/product/dell-pro-precision-7-t1-pw7t1260-4/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/05/ChatGPT-Image-May-12-2026-05_11_47-PM-600x637.png",
+    "inStock": true,
+    "rawSpec": "Ultra 9-285 | 1TB | 32GB | NVIDIA RTX 2000 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 9",
+    "cpu_model": "Ultra 9-285",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX 2000",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Precision 7 T1 PW7T1260 PM-RD33-16912"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 9 285 (36 MB cache, 24 cores, 24 threads, 1.9 GHz to 5.6 GHz, 65W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 1 x 32GB, DDR5, up to 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "3"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC M.2 2230 PCIe Gen4"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA(R) RTX(TM) 2000 ADA, 16 GB GDDR6, 4 mDP to DP adapters"
+      },
+      {
+        "label": "RJ-45",
+        "value": "1 RJ45 (1Gbps) port"
+      },
+      {
+        "label": "Front Ports",
+        "value": "1XUSB-C 3.2 Gen 2×2 (20Gbps) port\n1XUSB-A 3.2 Gen 2 (10Gbps) port\n1XUSB-A 2.0 (480Mbps) with PowerShare port\n1XUSB-A 2.0 (480Mbps) port"
+      },
+      {
+        "label": "Rear Ports",
+        "value": "1XUSB-C 3.2 Gen 2 (10Gbps) port\n3XUSB-A 3.2 Gen 1 (5Gbps) ports\n2XUSB-A 2.0 (480Mbps) with PowerShare port\n3XDisplayPort™ 1.4a (HBR3 support) ports"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "DisplayPort",
+        "value": "3XDisplayPort™ 1.4a (HBR3 support) ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "Dell Pro Tower with 360W PSU, WW"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro"
+      },
+      {
+        "label": "משקל ומידות",
+        "value": "Height: 32.4 cm\nWidth: 15.4 cm\nDepth: 29.3 cm\nWeight (Minimum): 4.61 kg"
+      },
+      {
+        "label": "מקלדת ועכבר",
+        "value": "Dell Wired Keyboard – KB216 – Hebrew (QWERTY) – Black\nDell Wired Mouse – MS116 – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16381",
+    "name": "Dell Pro Max Tower T2 FCT2250",
+    "category": "desktops",
+    "family": "Dell Pro Max",
+    "url": "https://cms.co.il/product/dell-pro-max-tower-t2-fct2250-4/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25337.png",
+    "inStock": false,
+    "rawSpec": "Ultra 7-265K | 1TB | 32GB | NVIDIA RTX 5080 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265K",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX 5080",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Max Tower T2 PM-RD33-16381"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 7 265K (30 MB cache, 20 cores, 20 threads, 3.3 GHz to 5.5 GHz, 125W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 1 x 32 GB, DDR5, 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "3"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA GeForce RTX 5080 16GB GDDR7 3xDP 1xHDMI"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 (1 GbE) Ethernet port"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "2×USB 2.0, 2×USB 3.2 Gen 2, 1×USB-C Gen 2×2, יציאה אופציונלית: Thunderbolt 4 (USB-C)"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2×USB 3.2 Gen 1 (אחד עם PowerShare), 1×USB-C Gen 2, 1×USB-C Gen 2×2 עם PowerShare"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "HDMI",
+        "value": "2 DisplayPort 1.4a HBR3 ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "1500W Platinum Regulatory Label EMEA"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD-card slot"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Height: 387 mm/ Width: 187.00 mm/ Depth: 438 mm"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Dell Optical Mouse-MS116/ Dell Multimedia Keyboard-KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16914",
+    "name": "Dell Pro Precision 7 T1 PW7T1260",
+    "category": "desktops",
+    "family": "Dell Pro Precision",
+    "url": "https://cms.co.il/product/dell-pro-precision-7-t1-pw7t1260-6/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/05/ChatGPT-Image-May-12-2026-05_11_47-PM-600x637.png",
+    "inStock": true,
+    "rawSpec": "Ultra 9-285 | 1TB | 32GB | NVIDIA RTX 5060 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 9",
+    "cpu_model": "Ultra 9-285",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX 5060",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Precision 7 T1 PW7T1260 PM-RD33-16914"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 9 285 (36 MB cache, 24 cores, 24 threads, 1.9 GHz to 5.6 GHz, 65W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 1 x 32GB, DDR5, up to 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "3"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC M.2 2230 PCIe Gen4"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA GeForce RTX 5060, 8 GB GDDR7"
+      },
+      {
+        "label": "RJ-45",
+        "value": "1 RJ45 (1Gbps) port"
+      },
+      {
+        "label": "Front Ports",
+        "value": "1XUSB-C 3.2 Gen 2×2 (20Gbps) port\n1XUSB-A 3.2 Gen 2 (10Gbps) port\n1XUSB-A 2.0 (480Mbps) with PowerShare port\n1XUSB-A 2.0 (480Mbps) port"
+      },
+      {
+        "label": "Rear Ports",
+        "value": "1XUSB-C 3.2 Gen 2 (10Gbps) port\n3XUSB-A 3.2 Gen 1 (5Gbps) ports\n2XUSB-A 2.0 (480Mbps) with PowerShare port\n3XDisplayPort™ 1.4a (HBR3 support) ports"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "DisplayPort",
+        "value": "3XDisplayPort™ 1.4a (HBR3 support) ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "Dell Pro Tower with 360W PSU, WW"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro"
+      },
+      {
+        "label": "משקל ומידות",
+        "value": "Height: 32.4 cm\nWidth: 15.4 cm\nDepth: 29.3 cm\nWeight (Minimum): 4.61 kg"
+      },
+      {
+        "label": "מקלדת ועכבר",
+        "value": "Dell Wired Keyboard – KB216 – Hebrew (QWERTY) – Black\nDell Wired Mouse – MS116 – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "AL-OP05-16753",
+    "name": "Alienware Aurora ACT1250",
+    "category": "desktops",
+    "family": "Alienware",
+    "url": "https://cms.co.il/product/alienware-aurora-act1250-8/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/03/lienware-Aurora-ACT1250-600x631.png",
+    "inStock": true,
+    "rawSpec": "Ultra 9-285K | 1TB SSD + 2TB SSD | 64GB | Nvidia RTX 5070 Ti | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 9",
+    "cpu_model": "Ultra 9-285K",
+    "ram_gb": 64,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "Nvidia RTX 5070 Ti",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Alienware Aurora ACT1250 AL-OP05-16753, מציאון מחיר סופי/ קופסה פתוחה"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel(R) Core(TM) Ultra 9 processor 285K (24-Core, 76MB Total Cache, 3.7GHz to 5.7GHz)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "64GB Dual Channel DDR5 (2x 32GB – Green) 5200 MT/s"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "0"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "64GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB NVMe M.2 PCIe SSD (Boot) + 2TB NVMe M.2 PCIe SSD (Storage)"
+      },
+      {
+        "label": "כרטיס מסך",
+        "value": "NVIDIA(R) GeForce RTX(TM) 5070 Ti 16GB GDDR7"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "Intel Wi-Fi 7 BE200 (2×2) 802.11ax Wireless LAN and Bluetooth"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel Wi-Fi 7 BE200 (2×2) 802.11ax Wireless LAN and Bluetooth"
+      },
+      {
+        "label": "CHIPSET",
+        "value": "Intel Z890"
+      },
+      {
+        "label": "יציאות USB קדמיות",
+        "value": "2 USB 3.2 Gen 1 (5 Gbps) ports\n1 USB 3.2 Gen 1 (5 Gbps) port with PowerShare\n1 USB 3.2 Gen 2 (10 Gbps) Type-C port with PowerShare"
+      },
+      {
+        "label": "יציאות USB אחוריות",
+        "value": "1 USB4 20 Gbps Type-C port with Power Delivery\n1 USB 3.2 Gen 2 (10 Gbps) Type-C port\n2 USB 3.2 Gen 1 (5 Gbps) ports\n2 USB 2.0 (480 Mbps) ports with Smart Power On"
+      },
+      {
+        "label": "DisplayPort",
+        "value": "3 DisplayPort 2.1b ports"
+      },
+      {
+        "label": "HDMI",
+        "value": "1 HDMI 2.1b port"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Universal audio jack\n1 Optical S/PDIF port\n1 Line-in port – 3.5 mm, 2 stack\n1 Line-out port – 3.5 mm, 2 stack"
+      },
+      {
+        "label": "RJ-45",
+        "value": "1 RJ45 ETHERNET PORT (2.5 GBPS)"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "1000W Platinum Rated PSU, Clear Door & 240mm Liquid Cooler with AlienFX lighting"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro"
+      },
+      {
+        "label": "משקל",
+        "value": "Weight (maximum): 15.37 kg"
+      },
+      {
+        "label": "מקלדת",
+        "value": "Dell Wired Keyboard – KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "עכבר",
+        "value": "Dell Wired Mouse – MS116 – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3Yr OnSite Warranty"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16891",
+    "name": "Dell Pro Max Tower T2 FCT2250",
+    "category": "desktops",
+    "family": "Dell Pro Max",
+    "url": "https://cms.co.il/product/dell-pro-max-tower-t2-fct2250-16/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25338.png",
+    "inStock": true,
+    "rawSpec": "Ultra 9-285K | 1TB | 32GB | NVIDIA RTX 2000 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 9",
+    "cpu_model": "Ultra 9-285K",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX 2000",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Max Tower T2 FCT2250 PM-RD33-16891"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 9 285K (36 MB cache, 24 cores, 24 threads, 3.2 GHz to 5.7 GHz, 125W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 2 x 16 GB, DDR5, 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "2"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA RTX 2000 ADA, 16 GB GDDR6, 4 mDP to DP adapters"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 (1 GbE) Ethernet port"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "2×USB 2.0, 2×USB 3.2 Gen 2, 1×USB-C Gen 2×2, יציאה אופציונלית: Thunderbolt 4 (USB-C)"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2×USB 3.2 Gen 1 (אחד עם PowerShare), 1×USB-C Gen 2, 1×USB-C Gen 2×2 עם PowerShare"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "HDMI",
+        "value": "2 DisplayPort 1.4a HBR3 ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "1500W Platinum Regulatory Label EMEA"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD-card slot"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Height: 387 mm/ Width: 187.00 mm/ Depth: 438 mm"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Dell Optical Mouse-MS116/ Dell Multimedia Keyboard-KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "XP-RD33-16241",
+    "name": "Dell Tower Plus EBT2250",
+    "category": "desktops",
+    "family": "Dell Tower Plus",
+    "url": "https://cms.co.il/product/dell-tower-plus-ebt2250/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25687.png",
+    "inStock": false,
+    "rawSpec": "Ultra 9-285K | 1TB | 32GB | NVIDIA RTX 5080 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 9",
+    "cpu_model": "Ultra 9-285K",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX 5080",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Tower Plus EBT2250 XP-RD33-16241"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Mini Tower"
+      },
+      {
+        "label": "לוח אם",
+        "value": "Intel Z890"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 9 285K processor (24-Core, 76MB Total Cache, 3.7GHz to 5.7GHz)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32 GB DDR5, 2 x 16 GB, 5200 MT/s"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "2 x 1TB M.2 PCIE 35 – Performance"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel Wi-Fi 7 BE200 (2×2) 802.11ax Wireless LAN and Bluetooth"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA® GeForce RTX™ 5080 16GB GDDR7"
+      },
+      {
+        "label": "רמקולים",
+        "value": "2x Stereo Audio"
+      },
+      {
+        "label": "RJ-45",
+        "value": "(1) Gigabit Ethernet"
+      },
+      {
+        "label": "Slots",
+        "value": "SD Card Reader (SD, SDHC, SDXC)"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "מארז",
+        "value": "Mini Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "Dell Pro Wireless Keyboard and Mouse – KM5221W – Hebrew (QWERTY)"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Front: (3) USB 3.2 Type-A Gen 1, (1) USB 3.2 Type-CGen 2 (no video/audio output), Headset jack, SD card slot"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Rear: (4) USB 2.0 Type-A, (2) USB 3.2 Type-A Gen 1, (1) Thunderbolt4 (includes 4K video output), (1) HDMI (includes 4K video output"
+      },
+      {
+        "label": "הערות 4",
+        "value": "Graphite"
+      },
+      {
+        "label": "הערות 5",
+        "value": "McAfee Business Protection 1-year"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-17098",
+    "name": "Dell Pro Max Tower T2 FCT2250",
+    "category": "desktops",
+    "family": "Dell Pro Max",
+    "url": "https://cms.co.il/product/dell-pro-max-tower-t2-fct2250-25/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25657.png",
+    "inStock": true,
+    "rawSpec": "Ultra 7-265K | 1TB | 32GB | NVIDIA RTX 5070 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265K",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX 5070",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Max Tower T2 FCT2250 PM-RD33-17098"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 7 265K (30 MB cache, 20 cores, 20 threads, 3.3 GHz to 5.5 GHz, 125W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 1 x 32 GB, DDR5, 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "3"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA GeForce RTX 5070 12GB GDDR7 3xDP 1xHDMI"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 (1 GbE) Ethernet port"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "2×USB 2.0, 2×USB 3.2 Gen 2, 1×USB-C Gen 2×2, יציאה אופציונלית: Thunderbolt 4 (USB-C)"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2×USB 3.2 Gen 1 (אחד עם PowerShare), 1×USB-C Gen 2, 1×USB-C Gen 2×2 עם PowerShare"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "HDMI",
+        "value": "2 DisplayPort 1.4a HBR3 ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "1500W Platinum Regulatory Label EMEA"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD-card slot"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Height: 387 mm/ Width: 187.00 mm/ Depth: 438 mm"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Dell Optical Mouse-MS116/ Dell Multimedia Keyboard-KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "AL-RD33-16752",
+    "name": "Alienware Aurora ACT1250",
+    "category": "desktops",
+    "family": "Alienware",
+    "url": "https://cms.co.il/product/alienware-aurora-act1250/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/03/lienware-Aurora-ACT1250-600x631.png",
+    "inStock": false,
+    "rawSpec": "Ultra 7-265KF | 1TB SSD + 2TB SSD | 32GB | Nvidia RTX 5060 Ti | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265KF",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "Nvidia RTX 5060 Ti",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Alienware Aurora ACT1250 AL-RD33-16752"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel(R) Core(TM) Ultra 7 processor 265KF (20-Core, 66MB Total Cache, 3.3GHz to 5.5GHz)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB Dual Channel DDR5 (2x 16GB – Green) 5200 MT/s"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "0"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "64GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB NVMe M.2 PCIe SSD (Boot) + 2TB NVMe M.2 PCIe SSD (Storage)"
+      },
+      {
+        "label": "כרטיס מסך",
+        "value": "NVIDIA(R) GeForce RTX(TM) 5060 Ti 8GB GDDR7"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "Intel Wi-Fi 7 BE200 (2×2) 802.11ax Wireless LAN and Bluetooth"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel Wi-Fi 7 BE200 (2×2) 802.11ax Wireless LAN and Bluetooth"
+      },
+      {
+        "label": "CHIPSET",
+        "value": "Intel Z890"
+      },
+      {
+        "label": "יציאות USB קדמיות",
+        "value": "2 USB 3.2 Gen 1 (5 Gbps) ports\n1 USB 3.2 Gen 1 (5 Gbps) port with PowerShare\n1 USB 3.2 Gen 2 (10 Gbps) Type-C port with PowerShare"
+      },
+      {
+        "label": "יציאות USB אחוריות",
+        "value": "1 USB4 20 Gbps Type-C port with Power Delivery\n1 USB 3.2 Gen 2 (10 Gbps) Type-C port\n2 USB 3.2 Gen 1 (5 Gbps) ports\n2 USB 2.0 (480 Mbps) ports with Smart Power On"
+      },
+      {
+        "label": "DisplayPort",
+        "value": "3 DisplayPort 2.1b ports"
+      },
+      {
+        "label": "HDMI",
+        "value": "1 HDMI 2.1b port"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Universal audio jack\n1 Optical S/PDIF port\n1 Line-in port – 3.5 mm, 2 stack\n1 Line-out port – 3.5 mm, 2 stack"
+      },
+      {
+        "label": "RJ-45",
+        "value": "1 RJ45 ETHERNET PORT (2.5 GBPS)"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "1000W Platinum Rated PSU, Clear Door & 240mm Liquid Cooler with\nAlienFX lighting"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro"
+      },
+      {
+        "label": "משקל",
+        "value": "Weight (maximum): 15.37 kg"
+      },
+      {
+        "label": "מקלדת",
+        "value": "Dell Wired Keyboard – KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "עכבר",
+        "value": "Dell Wired Mouse – MS116 – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3Yr OnSite Warranty"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16892",
+    "name": "Dell Pro Max Tower T2 FCT2250",
+    "category": "desktops",
+    "family": "Dell Pro Max",
+    "url": "https://cms.co.il/product/dell-pro-max-tower-t2-fct2250-18/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25658.png",
+    "inStock": true,
+    "rawSpec": "Ultra 9-285K | 1TB | 32GB | NVIDIA RTX 5070 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 9",
+    "cpu_model": "Ultra 9-285K",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX 5070",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Max Tower T2 FCT2250 PM-RD33-16892"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 9 285K (36 MB cache, 24 cores, 24 threads, 3.2 GHz to 5.7 GHz, 125W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 1 x 32 GB, DDR5, 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "3"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA GeForce RTX 5070 12GB GDDR7 3xDP 1xHDMI"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 (1 GbE) Ethernet port"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "2×USB 2.0, 2×USB 3.2 Gen 2, 1×USB-C Gen 2×2, יציאה אופציונלית: Thunderbolt 4 (USB-C)"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2×USB 3.2 Gen 1 (אחד עם PowerShare), 1×USB-C Gen 2, 1×USB-C Gen 2×2 עם PowerShare"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "HDMI",
+        "value": "2 DisplayPort 1.4a HBR3 ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "1500W Platinum Regulatory Label EMEA"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD-card slot"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Height: 387 mm/ Width: 187.00 mm/ Depth: 438 mm"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Dell Optical Mouse-MS116/ Dell Multimedia Keyboard-KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16800",
+    "name": "Dell Pro Max Tower T2 FCT2250",
+    "category": "desktops",
+    "family": "Dell Pro Max",
+    "url": "https://cms.co.il/product/dell-pro-max-tower-t2-fct2250-8/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25337.png",
+    "inStock": false,
+    "rawSpec": "Ultra 9-285K | 1TB | 32GB | NVIDIA RTX 5080 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 9",
+    "cpu_model": "Ultra 9-285K",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX 5080",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Max Tower T2 FCT2250 PM-RD33-16800"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 9 285K (36 MB cache, 24 cores, 24 threads, 3.2 GHz to 5.7 GHz, 125W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 1 x 32 GB, DDR5, 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "3"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA GeForce RTX 5080 16GB GDDR7 3xDP 1xHDMI"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 (1 GbE) Ethernet port"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "2×USB 2.0, 2×USB 3.2 Gen 2, 1×USB-C Gen 2×2, יציאה אופציונלית: Thunderbolt 4 (USB-C)"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2×USB 3.2 Gen 1 (אחד עם PowerShare), 1×USB-C Gen 2, 1×USB-C Gen 2×2 עם PowerShare"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "HDMI",
+        "value": "2 DisplayPort 1.4a HBR3 ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "1500W Platinum Regulatory Label EMEA"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD-card slot"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Height: 387 mm/ Width: 187.00 mm/ Depth: 438 mm"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Dell Optical Mouse-MS116/ Dell Multimedia Keyboard-KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "XP-RD33-16835",
+    "name": "Dell Tower Plus EBT2250",
+    "category": "desktops",
+    "family": "Dell Tower Plus",
+    "url": "https://cms.co.il/product/dell-tower-plus-ebt2250-%d7%94%d7%a2%d7%aa%d7%a7/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25687.png",
+    "inStock": false,
+    "rawSpec": "Ultra 9-285K | 1TB | 32GB | NVIDIA RTX 5080 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 9",
+    "cpu_model": "Ultra 9-285K",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX 5080",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Tower Plus EBT2250 XP-RD33-16835"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Mini Tower"
+      },
+      {
+        "label": "לוח אם",
+        "value": "Intel Z890"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 9 285K processor (24-Core, 76MB Total Cache, 3.7GHz to 5.7GHz)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32 GB DDR5, 2 x 16 GB, 5200 MT/s"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "0"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "64GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "2 x 1TB M.2 PCIE 35 – Performance"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel Wi-Fi 7 BE200 (2×2) 802.11ax Wireless LAN and Bluetooth"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA® GeForce RTX™ 5080 16GB GDDR7"
+      },
+      {
+        "label": "רמקולים",
+        "value": "2x Stereo Audio"
+      },
+      {
+        "label": "RJ-45",
+        "value": "(1) Gigabit Ethernet"
+      },
+      {
+        "label": "Slots",
+        "value": "SD Card Reader (SD, SDHC, SDXC)"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "מארז",
+        "value": "Mini Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "Dell Pro Wireless Keyboard and Mouse – KM5221W – Hebrew (QWERTY)"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Front: (3) USB 3.2 Type-A Gen 1, (1) USB 3.2 Type-CGen 2 (no video/audio output), Headset jack, SD card slot"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Rear: (4) USB 2.0 Type-A, (2) USB 3.2 Type-A Gen 1, (1) Thunderbolt4 (includes 4K video output), (1) HDMI (includes 4K video output"
+      },
+      {
+        "label": "הערות 4",
+        "value": "Graphite"
+      },
+      {
+        "label": "הערות 5",
+        "value": "McAfee Business Protection 1-year"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "AL-RD33-16889",
+    "name": "Alienware Aurora ACT1250",
+    "category": "desktops",
+    "family": "Alienware",
+    "url": "https://cms.co.il/product/alienware-aurora-act1250-7/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/03/lienware-Aurora-ACT1250-600x631.png",
+    "inStock": true,
+    "rawSpec": "Ultra 7-265KF | 1TB SSD + 2TB SSD | 32GB | Nvidia RTX 5070 Ti | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265KF",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "Nvidia RTX 5070 Ti",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Alienware Aurora ACT1250 AL-RD33-16889"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel(R) Core(TM) Ultra 7 processor 265KF (20-Core, 66MB Total Cache, 3.3GHz to 5.5GHz)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB Dual Channel DDR5 (2x 16GB – Green) 5200 MT/s"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "0"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "64GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB NVMe M.2 PCIe SSD (Boot) + 2TB NVMe M.2 PCIe SSD (Storage)"
+      },
+      {
+        "label": "כרטיס מסך",
+        "value": "NVIDIA(R) GeForce RTX(TM) 5070 Ti 16GB GDDR7"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "Intel Wi-Fi 7 BE200 (2×2) 802.11ax Wireless LAN and Bluetooth"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel Wi-Fi 7 BE200 (2×2) 802.11ax Wireless LAN and Bluetooth"
+      },
+      {
+        "label": "CHIPSET",
+        "value": "Intel Z890"
+      },
+      {
+        "label": "יציאות USB קדמיות",
+        "value": "2 USB 3.2 Gen 1 (5 Gbps) ports\n1 USB 3.2 Gen 1 (5 Gbps) port with PowerShare\n1 USB 3.2 Gen 2 (10 Gbps) Type-C port with PowerShare"
+      },
+      {
+        "label": "יציאות USB אחוריות",
+        "value": "1 USB4 20 Gbps Type-C port with Power Delivery\n1 USB 3.2 Gen 2 (10 Gbps) Type-C port\n2 USB 3.2 Gen 1 (5 Gbps) ports\n2 USB 2.0 (480 Mbps) ports with Smart Power On"
+      },
+      {
+        "label": "DisplayPort",
+        "value": "3 DisplayPort 2.1b ports"
+      },
+      {
+        "label": "HDMI",
+        "value": "1 HDMI 2.1b port"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Universal audio jack\n1 Optical S/PDIF port\n1 Line-in port – 3.5 mm, 2 stack\n1 Line-out port – 3.5 mm, 2 stack"
+      },
+      {
+        "label": "RJ-45",
+        "value": "1 RJ45 ETHERNET PORT (2.5 GBPS)"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "1000W Platinum Rated PSU, Clear Door & 240mm Liquid Cooler with AlienFX lighting"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro"
+      },
+      {
+        "label": "משקל",
+        "value": "Weight (maximum): 15.37 kg"
+      },
+      {
+        "label": "מקלדת",
+        "value": "Dell Wired Keyboard – KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "עכבר",
+        "value": "Dell Wired Mouse – MS116 – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3Yr OnSite Warranty"
+      }
+    ]
+  },
+  {
+    "sku": "AL-RD33-16753",
+    "name": "Alienware Aurora ACT1250",
+    "category": "desktops",
+    "family": "Alienware",
+    "url": "https://cms.co.il/product/alienware-aurora-act1250-2/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/03/lienware-Aurora-ACT1250-600x631.png",
+    "inStock": false,
+    "rawSpec": "Ultra 9-285K | 1TB SSD + 2TB SSD | 64GB | Nvidia RTX 5070 Ti | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 9",
+    "cpu_model": "Ultra 9-285K",
+    "ram_gb": 64,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "Nvidia RTX 5070 Ti",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Alienware Aurora ACT1250 AL-RD33-16753"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel(R) Core(TM) Ultra 9 processor 285K (24-Core, 76MB Total Cache, 3.7GHz to 5.7GHz)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "64GB Dual Channel DDR5 (2x 32GB – Green) 5200 MT/s"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "0"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "64GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB NVMe M.2 PCIe SSD (Boot) + 2TB NVMe M.2 PCIe SSD (Storage)"
+      },
+      {
+        "label": "כרטיס מסך",
+        "value": "NVIDIA(R) GeForce RTX(TM) 5070 Ti 16GB GDDR7"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "Intel Wi-Fi 7 BE200 (2×2) 802.11ax Wireless LAN and Bluetooth"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel Wi-Fi 7 BE200 (2×2) 802.11ax Wireless LAN and Bluetooth"
+      },
+      {
+        "label": "CHIPSET",
+        "value": "Intel Z890"
+      },
+      {
+        "label": "יציאות USB קדמיות",
+        "value": "2 USB 3.2 Gen 1 (5 Gbps) ports\n1 USB 3.2 Gen 1 (5 Gbps) port with PowerShare\n1 USB 3.2 Gen 2 (10 Gbps) Type-C port with PowerShare"
+      },
+      {
+        "label": "יציאות USB אחוריות",
+        "value": "1 USB4 20 Gbps Type-C port with Power Delivery\n1 USB 3.2 Gen 2 (10 Gbps) Type-C port\n2 USB 3.2 Gen 1 (5 Gbps) ports\n2 USB 2.0 (480 Mbps) ports with Smart Power On"
+      },
+      {
+        "label": "DisplayPort",
+        "value": "3 DisplayPort 2.1b ports"
+      },
+      {
+        "label": "HDMI",
+        "value": "1 HDMI 2.1b port"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Universal audio jack\n1 Optical S/PDIF port\n1 Line-in port – 3.5 mm, 2 stack\n1 Line-out port – 3.5 mm, 2 stack"
+      },
+      {
+        "label": "RJ-45",
+        "value": "1 RJ45 ETHERNET PORT (2.5 GBPS)"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "1000W Platinum Rated PSU, Clear Door & 240mm Liquid Cooler with AlienFX lighting"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro"
+      },
+      {
+        "label": "משקל",
+        "value": "Weight (maximum): 15.37 kg"
+      },
+      {
+        "label": "מקלדת",
+        "value": "Dell Wired Keyboard – KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "עכבר",
+        "value": "Dell Wired Mouse – MS116 – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3Yr OnSite Warranty"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16966",
+    "name": "Dell Pro Max Tower T2 FCT2250",
+    "category": "desktops",
+    "family": "Dell Pro Max",
+    "url": "https://cms.co.il/product/dell-pro-max-tower-t2-fct2250-13/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25339.png",
+    "inStock": true,
+    "rawSpec": "Ultra 7-265K | 1TB | 32GB | NVIDIA RTX 4000 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265K",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX 4000",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Max Tower T2 FCT2250 PM-RD33-16966"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "ntel Core Ultra 7 265K (30 MB cache, 20 cores, 20 threads, 3.3 GHz to 5.5 GHz, 125W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 1 x 32 GB, DDR5, 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "3"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA RTX PRO 4000 Blackwell Workstation Edition (145W), 24GB GDDR7 with ECC, 4DP"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 (1 GbE) Ethernet port"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "2×USB 2.0, 2×USB 3.2 Gen 2, 1×USB-C Gen 2×2, יציאה אופציונלית: Thunderbolt 4 (USB-C)"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2×USB 3.2 Gen 1 (אחד עם PowerShare), 1×USB-C Gen 2, 1×USB-C Gen 2×2 עם PowerShare"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "HDMI",
+        "value": "2 DisplayPort 1.4a HBR3 ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "1500W Platinum Regulatory Label EMEA"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD-card slot"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Height: 387 mm/ Width: 187.00 mm/ Depth: 438 mm"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Dell Optical Mouse-MS116/ Dell Multimedia Keyboard-KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "AL-RD33-16756",
+    "name": "Alienware Area-51 AAT2250",
+    "category": "desktops",
+    "family": "Alienware",
+    "url": "https://cms.co.il/product/alienware-area-51-aat2250-2/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/03/Alienware-Area-51-AAT2250-600x573.png",
+    "inStock": true,
+    "rawSpec": "Ultra 7-265K | 1TB SSD + 2TB SSD | 32GB | Nvidia RTX 5070 Ti | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 7",
+    "cpu_model": "Ultra 7-265K",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "Nvidia RTX 5070 Ti",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Alienware Area-51 AAT2250 AL-RD33-16756"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel(R) Core(TM) Ultra 7 265K processor (20-Core, 66MB Total Cache, 3.3GHz to 5.5GHz)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB Dual Channel DDR5 XMP (2x 16GB – Black) 6400 MT/s"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "0"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "64GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB NVMe M.2 PCIe Gen5 SSD (Boot) + 2TB NVMe M.2 PCIe Gen4 SSD (Storage)"
+      },
+      {
+        "label": "כרטיס מסך",
+        "value": "NVIDIA(R) GeForce RTX(TM) 5070 Ti 16GB GDDR7"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "Intel(R) Killer Wi-Fi 7 BE1750 (2×2 320Hz) MIMO 802.11be Wireless LAN and Bluetooth 5.4"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel(R) Killer Wi-Fi 7 BE1750 (2×2 320Hz) MIMO 802.11be Wireless LAN and Bluetooth 5.4"
+      },
+      {
+        "label": "CHIPSET",
+        "value": "Intel Z890"
+      },
+      {
+        "label": "יציאות USB קדמיות",
+        "value": "2 USB 3.2 Gen 2 (10 Gbps) Type-C port with PowerShare\n2 USB 3.2 Gen 1 (5 Gbps) ports"
+      },
+      {
+        "label": "יציאות USB אחוריות",
+        "value": "3 USB 2.0 (480 Mbps) ports\n2 USB 2.0 (480 Mbps) ports with Smart Power On\n1 USB 3.2 Gen 1 (5 Gbps) port\n2 USB 3.2 Gen 2 (10 Gbps) Type-C ports\n2 Thunderbolt 4 (40 Gbps) ports with DisplayPort Alt Mode/USB Type-C/USB4/Power Delivery"
+      },
+      {
+        "label": "DisplayPort",
+        "value": "3 DisplayPort 2.1b ports"
+      },
+      {
+        "label": "HDMI",
+        "value": "1 HDMI 2.1b port"
+      },
+      {
+        "label": "Audio Out",
+        "value": "Integrated 5.1 channel audio with S/PDIF port\nHigh-definition audio interface\nExternal audio interface:\n5.1 channel output – optical S/PDIF\nLine-in/Line-out ports\nLine-out/Microphone-in ports"
+      },
+      {
+        "label": "RJ-45",
+        "value": "1 RJ45 ETHERNET PORT (2.5 GBPS)"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "1500W Platinum Rated ATX12VO PSU, 240mm Liquid-Cooled CPU, Tempered Glass Door"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro"
+      },
+      {
+        "label": "משקל",
+        "value": "Weight (maximum): 34.58 kg"
+      },
+      {
+        "label": "מקלדת",
+        "value": "Dell Wired Keyboard – KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "עכבר",
+        "value": "Dell Wired Mouse – MS116 – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3Yr OnSite Warranty"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16967",
+    "name": "Dell Pro Max Tower T2 FCT2250",
+    "category": "desktops",
+    "family": "Dell Pro Max",
+    "url": "https://cms.co.il/product/dell-pro-max-tower-t2-fct2250-14/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25340.png",
+    "inStock": false,
+    "rawSpec": "Ultra 9-285K | 1TB | 32GB | NVIDIA RTX 4000 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 9",
+    "cpu_model": "Ultra 9-285K",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX 4000",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Max Tower T2 FCT2250 PM-RD33-16967"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 9 285K (36 MB cache, 24 cores, 24 threads, 3.2 GHz to 5.7 GHz, 125W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 1 x 32 GB, DDR5, 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "3"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA RTX PRO 4000 Blackwell Workstation Edition (145W), 24GB GDDR7 with ECC, 4DP"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 (1 GbE) Ethernet port"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "2×USB 2.0, 2×USB 3.2 Gen 2, 1×USB-C Gen 2×2, יציאה אופציונלית: Thunderbolt 4 (USB-C)"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2×USB 3.2 Gen 1 (אחד עם PowerShare), 1×USB-C Gen 2, 1×USB-C Gen 2×2 עם PowerShare"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "HDMI",
+        "value": "2 DisplayPort 1.4a HBR3 ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "1500W Platinum Regulatory Label EMEA"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD-card slot"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Height: 387 mm/ Width: 187.00 mm/ Depth: 438 mm"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Dell Optical Mouse-MS116/ Dell Multimedia Keyboard-KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "AL-RD33-16887",
+    "name": "Alienware Aurora ACT1250",
+    "category": "desktops",
+    "family": "Alienware",
+    "url": "https://cms.co.il/product/alienware-aurora-act1250-5/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/03/lienware-Aurora-ACT1250-600x631.png",
+    "inStock": true,
+    "rawSpec": "Ultra 9-285K | 1TB SSD + 2TB SSD | 64GB | Nvidia RTX 5070 Ti | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 9",
+    "cpu_model": "Ultra 9-285K",
+    "ram_gb": 64,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "Nvidia RTX 5070 Ti",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Alienware Aurora ACT1250 AL-RD33-16887"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel(R) Core(TM) Ultra 9 processor 285K (24-Core, 76MB Total Cache, 3.7GHz to 5.7GHz)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "64GB Dual Channel DDR5 (2x 32GB – Green) 5200 MT/s"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "0"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "64GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB NVMe M.2 PCIe SSD (Boot) + 2TB NVMe M.2 PCIe SSD (Storage)"
+      },
+      {
+        "label": "כרטיס מסך",
+        "value": "NVIDIA(R) GeForce RTX(TM) 5070 Ti 16GB GDDR7"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "Intel Wi-Fi 7 BE200 (2×2) 802.11ax Wireless LAN and Bluetooth"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel Wi-Fi 7 BE200 (2×2) 802.11ax Wireless LAN and Bluetooth"
+      },
+      {
+        "label": "CHIPSET",
+        "value": "Intel Z890"
+      },
+      {
+        "label": "יציאות USB קדמיות",
+        "value": "2 USB 3.2 Gen 1 (5 Gbps) ports\n1 USB 3.2 Gen 1 (5 Gbps) port with PowerShare\n1 USB 3.2 Gen 2 (10 Gbps) Type-C port with PowerShare"
+      },
+      {
+        "label": "יציאות USB אחוריות",
+        "value": "1 USB4 20 Gbps Type-C port with Power Delivery\n1 USB 3.2 Gen 2 (10 Gbps) Type-C port\n2 USB 3.2 Gen 1 (5 Gbps) ports\n2 USB 2.0 (480 Mbps) ports with Smart Power On"
+      },
+      {
+        "label": "DisplayPort",
+        "value": "3 DisplayPort 2.1b ports"
+      },
+      {
+        "label": "HDMI",
+        "value": "1 HDMI 2.1b port"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Universal audio jack\n1 Optical S/PDIF port\n1 Line-in port – 3.5 mm, 2 stack\n1 Line-out port – 3.5 mm, 2 stack"
+      },
+      {
+        "label": "RJ-45",
+        "value": "1 RJ45 ETHERNET PORT (2.5 GBPS)"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "1000W Platinum Rated PSU, Clear Door & 240mm Liquid Cooler with AlienFX lighting"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro"
+      },
+      {
+        "label": "משקל",
+        "value": "Weight (maximum): 15.37 kg"
+      },
+      {
+        "label": "מקלדת",
+        "value": "Dell Wired Keyboard – KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "עכבר",
+        "value": "Dell Wired Mouse – MS116 – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3Yr OnSite Warranty"
+      }
+    ]
+  },
+  {
+    "sku": "AL-RD33-16757",
+    "name": "Alienware Area-51 AAT2250",
+    "category": "desktops",
+    "family": "Alienware",
+    "url": "https://cms.co.il/product/alienware-area-51-aat2250/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/03/Alienware-Area-51-AAT2250-600x573.png",
+    "inStock": false,
+    "rawSpec": "Ultra 9-285K | 1TB SSD + 2TB SSD | 64GB | Nvidia RTX 5070 Ti | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 9",
+    "cpu_model": "Ultra 9-285K",
+    "ram_gb": 64,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "Nvidia RTX 5070 Ti",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Alienware Area-51 AAT2250 AL-RD33-16757"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel(R) Core(TM) Ultra 9 285K processor (24-Core, 76MB Total Cache, 3.7GHz to 5.7GHz)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "64GB Dual Channel DDR5 (2x 32GB – Green) 6400 MT/s"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "0"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "64GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB NVMe M.2 PCIe Gen5 SSD (Boot) + 2TB NVMe M.2 PCIe Gen4 SSD (Storage)"
+      },
+      {
+        "label": "כרטיס מסך",
+        "value": "NVIDIA(R) GeForce RTX(TM) 5070 Ti 16GB GDDR7"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "Intel(R) Killer Wi-Fi 7 BE1750 (2×2 320Hz) MIMO 802.11be Wireless LAN and Bluetooth 5.4"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel(R) Killer Wi-Fi 7 BE1750 (2×2 320Hz) MIMO 802.11be Wireless LAN and Bluetooth 5.4"
+      },
+      {
+        "label": "CHIPSET",
+        "value": "Intel Z890"
+      },
+      {
+        "label": "יציאות USB קדמיות",
+        "value": "2 USB 3.2 Gen 2 (10 Gbps) Type-C port with PowerShare\n2 USB 3.2 Gen 1 (5 Gbps) ports"
+      },
+      {
+        "label": "יציאות USB אחוריות",
+        "value": "3 USB 2.0 (480 Mbps) ports\n2 USB 2.0 (480 Mbps) ports with Smart Power On\n1 USB 3.2 Gen 1 (5 Gbps) port\n2 USB 3.2 Gen 2 (10 Gbps) Type-C ports\n2 Thunderbolt 4 (40 Gbps) ports with DisplayPort Alt Mode/USB Type-C/USB4/Power Delivery"
+      },
+      {
+        "label": "DisplayPort",
+        "value": "3 DisplayPort 2.1b ports"
+      },
+      {
+        "label": "HDMI",
+        "value": "1 HDMI 2.1b port"
+      },
+      {
+        "label": "Audio Out",
+        "value": "Integrated 5.1 channel audio with S/PDIF port\nHigh-definition audio interface\nExternal audio interface:\n5.1 channel output – optical S/PDIF\nLine-in/Line-out ports\nLine-out/Microphone-in ports"
+      },
+      {
+        "label": "RJ-45",
+        "value": "1 RJ45 ETHERNET PORT (2.5 GBPS)"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "1500W Platinum Rated ATX12VO PSU, 360mm Liquid-Cooled CPU,Tempered Glass Door"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro"
+      },
+      {
+        "label": "משקל",
+        "value": "Weight (maximum): 34.58 kg"
+      },
+      {
+        "label": "מקלדת",
+        "value": "Dell Wired Keyboard – KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "עכבר",
+        "value": "Dell Wired Mouse – MS116 – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3Yr OnSite Warranty"
+      }
+    ]
+  },
+  {
+    "sku": "AL-RD33-16888",
+    "name": "Alienware Aurora ACT1250",
+    "category": "desktops",
+    "family": "Alienware",
+    "url": "https://cms.co.il/product/alienware-aurora-act1250-6/",
+    "image": "https://cms.co.il/wp-content/uploads/2026/03/lienware-Aurora-ACT1250-600x631.png",
+    "inStock": true,
+    "rawSpec": "Ultra 9-285K | 1TB SSD + 2TB SSD | 64GB | NVIDIA RTX 5080 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 9",
+    "cpu_model": "Ultra 9-285K",
+    "ram_gb": 64,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX 5080",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Alienware Aurora ACT1250 AL-RD33-16888"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel(R) Core(TM) Ultra 9 processor 285K (24-Core, 76MB Total Cache, 3.7GHz to 5.7GHz)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "64GB Dual Channel DDR5 (2x 32GB – Green) 5200 MT/s"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "0"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "64GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB NVMe M.2 PCIe SSD (Boot) + 2TB NVMe M.2 PCIe SSD (Storage)"
+      },
+      {
+        "label": "כרטיס מסך",
+        "value": "NVIDIA(R) GeForce RTX(TM) 5080 16GB GDDR7"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "Intel Wi-Fi 7 BE200 (2×2) 802.11ax Wireless LAN and Bluetooth"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel Wi-Fi 7 BE200 (2×2) 802.11ax Wireless LAN and Bluetooth"
+      },
+      {
+        "label": "CHIPSET",
+        "value": "Intel Z890"
+      },
+      {
+        "label": "יציאות USB קדמיות",
+        "value": "2 USB 3.2 Gen 1 (5 Gbps) ports\n1 USB 3.2 Gen 1 (5 Gbps) port with PowerShare\n1 USB 3.2 Gen 2 (10 Gbps) Type-C port with PowerShare"
+      },
+      {
+        "label": "יציאות USB אחוריות",
+        "value": "1 USB4 20 Gbps Type-C port with Power Delivery\n1 USB 3.2 Gen 2 (10 Gbps) Type-C port\n2 USB 3.2 Gen 1 (5 Gbps) ports\n2 USB 2.0 (480 Mbps) ports with Smart Power On"
+      },
+      {
+        "label": "DisplayPort",
+        "value": "3 DisplayPort 2.1b ports"
+      },
+      {
+        "label": "HDMI",
+        "value": "1 HDMI 2.1b port"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Universal audio jack\n1 Optical S/PDIF port\n1 Line-in port – 3.5 mm, 2 stack\n1 Line-out port – 3.5 mm, 2 stack"
+      },
+      {
+        "label": "RJ-45",
+        "value": "1 RJ45 ETHERNET PORT (2.5 GBPS)"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "1000W Platinum Rated PSU, Clear Door & 240mm Liquid Cooler with AlienFX lighting"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro"
+      },
+      {
+        "label": "משקל",
+        "value": "Weight (maximum): 15.37 kg"
+      },
+      {
+        "label": "מקלדת",
+        "value": "Dell Wired Keyboard – KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "עכבר",
+        "value": "Dell Wired Mouse – MS116 – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3Yr OnSite Warranty"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16893",
+    "name": "Dell Pro Max Tower T2 FCT2250",
+    "category": "desktops",
+    "family": "Dell Pro Max",
+    "url": "https://cms.co.il/product/dell-pro-max-tower-t2-fct2250-11/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25337.png",
+    "inStock": true,
+    "rawSpec": "Ultra 9-285K | 1TB | 32GB | NVIDIA RTX 5090 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 9",
+    "cpu_model": "Ultra 9-285K",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX 5090",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Max Tower T2 FCT2250 PM-RD33-16893"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 9 285K (36 MB cache, 24 cores, 24 threads, 3.2 GHz to 5.7 GHz, 125W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32GB: 1 x 32 GB, DDR5, 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "3"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA GeForce RTX 5090 32GB GDDR7 3xDP 1xHDMI"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 (1 GbE) Ethernet port"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "2×USB 2.0, 2×USB 3.2 Gen 2, 1×USB-C Gen 2×2, יציאה אופציונלית: Thunderbolt 4 (USB-C)"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2×USB 3.2 Gen 1 (אחד עם PowerShare), 1×USB-C Gen 2, 1×USB-C Gen 2×2 עם PowerShare"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "HDMI",
+        "value": "2 DisplayPort 1.4a HBR3 ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "1500W Platinum Regulatory Label EMEA"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD-card slot"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Height: 387 mm/ Width: 187.00 mm/ Depth: 438 mm"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Dell Optical Mouse-MS116/ Dell Multimedia Keyboard-KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "PM-RD33-16801",
+    "name": "Dell Pro Max Tower T2 FCT2250",
+    "category": "desktops",
+    "family": "Dell Pro Max",
+    "url": "https://cms.co.il/product/dell-pro-max-tower-t2-fct2250-6/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25337.png",
+    "inStock": false,
+    "rawSpec": "Ultra 9-285K | 1TB | 64GB | NVIDIA RTX 5090 | 3Year | Windows 11 Pro",
+    "cpu_type": "Ultra 9",
+    "cpu_model": "Ultra 9-285K",
+    "ram_gb": 64,
+    "disk_gb": 1024,
+    "screen_size": null,
+    "gpu_type": "NVIDIA RTX 5090",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell Pro Max Tower T2 FCT2250 PM-RD33-16801"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "Tower"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel Core Ultra 9 285K (36 MB cache, 24 cores, 24 threads, 3.2 GHz to 5.7 GHz, 125W)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "64GB: 2 x 32 GB, DDR5, 5600 MT/s, non-ECC"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "2"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "128GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB SSD TLC with DRAM M.2 2280 PCIe Gen4 SED Ready"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA GeForce RTX 5090 32GB GDDR7 3xDP 1xHDMI"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 (1 GbE) Ethernet port"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "2×USB 2.0, 2×USB 3.2 Gen 2, 1×USB-C Gen 2×2, יציאה אופציונלית: Thunderbolt 4 (USB-C)"
+      },
+      {
+        "label": "Front Ports",
+        "value": "2×USB 3.2 Gen 1 (אחד עם PowerShare), 1×USB-C Gen 2, 1×USB-C Gen 2×2 עם PowerShare"
+      },
+      {
+        "label": "Audio Out",
+        "value": "1 Global headset jack"
+      },
+      {
+        "label": "HDMI",
+        "value": "2 DisplayPort 1.4a HBR3 ports"
+      },
+      {
+        "label": "ספק כוח",
+        "value": "1500W Platinum Regulatory Label EMEA"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "מארז",
+        "value": "Tower"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD-card slot"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Height: 387 mm/ Width: 187.00 mm/ Depth: 438 mm"
+      },
+      {
+        "label": "הערות 3",
+        "value": "Dell Optical Mouse-MS116/ Dell Multimedia Keyboard-KB216 – Hebrew (QWERTY) – Black"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנות אחריות יצרן פרוספורט באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "3Yr ProSupport and Next Business Day On-Site Service"
+      }
+    ]
+  },
+  {
+    "sku": "IN-RD33-16717",
+    "name": "Dell 27 All-in-One EC27250",
+    "category": "aio",
+    "family": "Dell",
+    "url": "https://cms.co.il/product/dell-27-all-in-one-ec27250-5/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25480-600x440.png",
+    "inStock": false,
+    "rawSpec": "i5-1334U | 512GB | 16GB | Intel Graphics | 27' | 3Year | Windows 11 Pro",
+    "cpu_type": "i5",
+    "cpu_model": "i5-1334U",
+    "ram_gb": 16,
+    "disk_gb": 512,
+    "screen_size": "27",
+    "gpu_type": "Intel Graphics",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell 27 AIO EC27250 IN-RD33-16717"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "צבע",
+        "value": "Pearl White Cover + Fabric Speaker Grill"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "All In One PC"
+      },
+      {
+        "label": "מעבד",
+        "value": "13th Generation Intel(R) Core(TM) i5-1334U (12 MB cache, 10 cores, 12 threads, up to 4.60 GHz)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "16 GB, 1 x 16 GB, DDR5, 5200 MT/s"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "1"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "32GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "512GB M.2 PCIe NVMe Solid State Drive"
+      },
+      {
+        "label": "סוג מסך",
+        "value": "27-inch FHD (1920 x 1080) Narrow Border Infinity NTCH Display with Wide Viewing Angle"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "Intel Wi-Fi 6E AX211, 2×2, 802.11ax, Bluetooth(R) wireless card"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel Wi-Fi 6E AX211, 2×2, 802.11ax, Bluetooth(R) wireless card"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "Intel® Graphics"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 Ethernet port(1 Gbps)"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "(3) USB 3.2 Gen 1 (5 Gbps) ports with Wake-up support (S3/Modern Standby)"
+      },
+      {
+        "label": "USB 3.0",
+        "value": "1) USB 3.2 Type-C®Gen 2 (10 Gbps) port/(1) USB 3.2 Gen 2 (10 Gbps) port with PowerShare"
+      },
+      {
+        "label": "HDMI",
+        "value": "HDMI-out 1.4b/HDMI-in 1.4"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD Card Reader"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Dell Pro Keyboard and Mouse – KM5221W – Hebrew (QWERTY) – White"
+      },
+      {
+        "label": "הערות 3",
+        "value": "90 Watt AC Adapter"
+      },
+      {
+        "label": "הערות 4",
+        "value": "Reader 3.0, Microphone/Headset Jack, DC"
+      },
+      {
+        "label": "הערות 5",
+        "value": "5MP, IR, Tilt Camera (White)"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3 Yr OnSite Warranty"
+      }
+    ]
+  },
+  {
+    "sku": "IN-RD33-16582",
+    "name": "Dell 24 All-in-One EC24250",
+    "category": "aio",
+    "family": "Dell",
+    "url": "https://cms.co.il/product/dell-24-all-in-one-ec24250/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25476.png",
+    "inStock": true,
+    "rawSpec": "Core i7-150U | 1TB | 16GB | Intel Graphics | 23.8' | Touch | 3Year | Windows 11 Pro",
+    "cpu_type": "Core i7",
+    "cpu_model": "Core i7-150U",
+    "ram_gb": 16,
+    "disk_gb": 1024,
+    "screen_size": "23.8",
+    "gpu_type": "Intel Graphics",
+    "os": "Windows 11 Pro",
+    "touch": true,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell 24 AIO EC24250 IN-RD33-16582"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "צבע",
+        "value": "Pearl White Cover + Fabric Speaker Grill"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "All In One PC"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel(R) Core(TM) 7 processor 150U (12MB cache, 10 cores, 12 threads, up to 5.4 GHz)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "16 GB, 1 x 16 GB, DDR5, 5200 MT/s"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "1"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "32GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB M.2 PCIe NVMe Solid State Drive"
+      },
+      {
+        "label": "סוג מסך",
+        "value": "23.8-inch FHD (1920 x 1080) Anti-Glare Narrow Border AIT Infinity Touch Display"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "Intel Wi-Fi 6E AX211, 2×2, 802.11ax, Bluetooth(R) wireless card"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel Wi-Fi 6E AX211, 2×2, 802.11ax, Bluetooth(R) wireless card"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "Intel Iris Xe Graphics"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 Ethernet port(1 Gbps)"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "(3) USB 3.2 Gen 1 (5 Gbps) ports with Wake-up support (S3/Modern Standby)"
+      },
+      {
+        "label": "USB 3.0",
+        "value": "1) USB 3.2 Type-C®Gen 2 (10 Gbps) port/(1) USB 3.2 Gen 2 (10 Gbps) port with PowerShare"
+      },
+      {
+        "label": "HDMI",
+        "value": "HDMI-out 1.4b/HDMI-in 1.4"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD Card Reader"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Dell Pro Keyboard and Mouse – KM5221W – Hebrew (QWERTY) – White"
+      },
+      {
+        "label": "הערות 3",
+        "value": "90 Watt AC Adapter"
+      },
+      {
+        "label": "הערות 4",
+        "value": "Reader 3.0, Microphone/Headset Jack, DC"
+      },
+      {
+        "label": "הערות 5",
+        "value": "5MP, IR, Tilt Camera (White)"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3 Yr OnSite Warranty"
+      },
+      {
+        "label": "סינון מסך מגע",
+        "value": "Touch"
+      }
+    ]
+  },
+  {
+    "sku": "IN-RD33-16365",
+    "name": "Dell 24 All-in-One EC24250",
+    "category": "aio",
+    "family": "Dell",
+    "url": "https://cms.co.il/product/dell-24-all-in-one-ec24250-4/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25476.png",
+    "inStock": true,
+    "rawSpec": "i5-1334U | 512GB | 16GB | Intel Graphics | 23.8' | 3Year | Windows 11 Pro",
+    "cpu_type": "i5",
+    "cpu_model": "i5-1334U",
+    "ram_gb": 16,
+    "disk_gb": 512,
+    "screen_size": "23.8",
+    "gpu_type": "Intel Graphics",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell 24 All-in-One EC24250 IN-RD33-16365"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "צבע",
+        "value": "Pearl White Cover + Fabric Speaker Grill"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "All In One PC"
+      },
+      {
+        "label": "מעבד",
+        "value": "13th Generation Intel Core i5-1334U (12 MB cache, 10 cores, 12 threads, up to 4.60 GHz)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "16GB, 2x8GB, DDR5, 5200 MT/s"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "0"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "32GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "512GB M.2 PCIe NVMe Solid State Drive"
+      },
+      {
+        "label": "סוג מסך",
+        "value": "23.8-inch FHD (1920 x 1080) Anti-Glare Narrow Border AIT Infinity Non Touch Display"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "Intel Wi-Fi 6E AX211, 2×2, 802.11ax, Bluetooth(R) wireless card"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel Wi-Fi 6E AX211, 2×2, 802.11ax, Bluetooth(R) wireless card"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "Intel Iris Xe Graphics"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 Ethernet port(1 Gbps)"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "(3) USB 3.2 Gen 1 (5 Gbps) ports with Wake-up support (S3/Modern Standby)"
+      },
+      {
+        "label": "USB 3.0",
+        "value": "1) USB 3.2 Type-C®Gen 2 (10 Gbps) port/(1) USB 3.2 Gen 2 (10 Gbps) port with PowerShare"
+      },
+      {
+        "label": "HDMI",
+        "value": "HDMI-out 1.4b/HDMI-in 1.4"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD Card Reader"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Dell Pro Keyboard and Mouse – KM5221W – Hebrew (QWERTY) – White"
+      },
+      {
+        "label": "הערות 3",
+        "value": "90 Watt AC Adapter"
+      },
+      {
+        "label": "הערות 4",
+        "value": "Reader 3.0, Microphone/Headset Jack, DC"
+      },
+      {
+        "label": "הערות 5",
+        "value": "5MP, IR, Tilt Camera (White)"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3 Yr OnSite Warranty"
+      }
+    ]
+  },
+  {
+    "sku": "IN-RD33-16665",
+    "name": "Dell 27 All-in-One EC27250",
+    "category": "aio",
+    "family": "Dell",
+    "url": "https://cms.co.il/product/dell-27-all-in-one-ec27250/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25480-600x440.png",
+    "inStock": true,
+    "rawSpec": "Core i7-150U | 512GB | 16GB | Intel Graphics | 27' | 3Year | Windows 11 Pro",
+    "cpu_type": "Core i7",
+    "cpu_model": "Core i7-150U",
+    "ram_gb": 16,
+    "disk_gb": 512,
+    "screen_size": "27",
+    "gpu_type": "Intel Graphics",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell 27 AIO EC27250 IN-RD33-16665"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "צבע",
+        "value": "Pearl White Cover + Fabric Speaker Grill"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "All In One PC"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel(R) Core(TM) 7 processor 150U(12MB cache, 10 cores, 12 threads, up to 5.4 GHz)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "16 GB, 1 x 16 GB, DDR5, 5200 MT/s"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "1"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "32GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "512GB M.2 PCIe NVMe Solid State Drive"
+      },
+      {
+        "label": "סוג מסך",
+        "value": "27-inch FHD (1920 x 1080) Narrow Border Infinity NTCH Display with Wide Viewing Angle"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "Intel Wi-Fi 6E AX211, 2×2, 802.11ax, Bluetooth(R) wireless card"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel Wi-Fi 6E AX211, 2×2, 802.11ax, Bluetooth(R) wireless card"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "Intel® Graphics"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 Ethernet port(1 Gbps)"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "(3) USB 3.2 Gen 1 (5 Gbps) ports with Wake-up support (S3/Modern Standby)"
+      },
+      {
+        "label": "USB 3.0",
+        "value": "1) USB 3.2 Type-C®Gen 2 (10 Gbps) port/(1) USB 3.2 Gen 2 (10 Gbps) port with PowerShare"
+      },
+      {
+        "label": "HDMI",
+        "value": "HDMI-out 1.4b/HDMI-in 1.4"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD Card Reader"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Dell Pro Keyboard and Mouse – KM5221W – Hebrew (QWERTY) – White"
+      },
+      {
+        "label": "הערות 3",
+        "value": "90 Watt AC Adapter"
+      },
+      {
+        "label": "הערות 4",
+        "value": "Reader 3.0, Microphone/Headset Jack, DC"
+      },
+      {
+        "label": "הערות 5",
+        "value": "5MP, IR, Tilt Camera (White)"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3 Yr OnSite Warranty"
+      }
+    ]
+  },
+  {
+    "sku": "IN-RD33-16136",
+    "name": "Dell 27 All-in-One EC27250",
+    "category": "aio",
+    "family": "Dell",
+    "url": "https://cms.co.il/product/dell-27-all-in-one-ec27250-3/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25480-600x440.png",
+    "inStock": false,
+    "rawSpec": "Core i7-150U | 2TB | 32GB | Intel Graphics | 27' | 3Year | Windows 11 Pro",
+    "cpu_type": "Core i7",
+    "cpu_model": "Core i7-150U",
+    "ram_gb": 32,
+    "disk_gb": 2048,
+    "screen_size": "27",
+    "gpu_type": "Intel Graphics",
+    "os": "Windows 11 Pro",
+    "touch": false,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell 27 All-in-One EC27250 IN-RD33-16136"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "צבע",
+        "value": "Pearl White Cover + Fabric Speaker Grill"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "All In One PC"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel(R) Core(TM) 7 processor 150U(12MB cache, 10 cores, 12 threads, up to 5.4 GHz)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32 GB DDR5, 2 x 16 GB, 5200 MT/s"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "0"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "32GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "2TB M.2 PCIe NVMe Solid State Drive"
+      },
+      {
+        "label": "סוג מסך",
+        "value": "27-inch FHD (1920 x 1080) Narrow Border Infinity NTCH Display with Wide Viewing Angle"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "Intel Wi-Fi 6E AX211, 2×2, 802.11ax, Bluetooth(R) wireless card"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel Wi-Fi 6E AX211, 2×2, 802.11ax, Bluetooth(R) wireless card"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "Intel® Graphics"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 Ethernet port(1 Gbps)"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "(3) USB 3.2 Gen 1 (5 Gbps) ports with Wake-up support (S3/Modern Standby)"
+      },
+      {
+        "label": "USB 3.0",
+        "value": "1) USB 3.2 Type-C®Gen 2 (10 Gbps) port/(1) USB 3.2 Gen 2 (10 Gbps) port with PowerShare"
+      },
+      {
+        "label": "HDMI",
+        "value": "HDMI-out 1.4b/HDMI-in 1.4"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD Card Reader"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Dell Pro Keyboard and Mouse – KM5221W – Hebrew (QWERTY) – White"
+      },
+      {
+        "label": "הערות 3",
+        "value": "90 Watt AC Adapter"
+      },
+      {
+        "label": "הערות 4",
+        "value": "Reader 3.0, Microphone/Headset Jack, DC"
+      },
+      {
+        "label": "הערות 5",
+        "value": "5MP, IR, Tilt Camera (White)"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3 Yr OnSite Warranty"
+      }
+    ]
+  },
+  {
+    "sku": "IN-RD33-16137",
+    "name": "Dell 27 All-in-One EC27250",
+    "category": "aio",
+    "family": "Dell",
+    "url": "https://cms.co.il/product/dell-27-all-in-one-ec27250-2/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25481-600x440.png",
+    "inStock": false,
+    "rawSpec": "Core i7-150U | 1TB | 32GB | Intel Graphics | 27' | Touch | 3Year | Windows 11 Pro",
+    "cpu_type": "Core i7",
+    "cpu_model": "Core i7-150U",
+    "ram_gb": 32,
+    "disk_gb": 1024,
+    "screen_size": "27",
+    "gpu_type": "Intel Graphics",
+    "os": "Windows 11 Pro",
+    "touch": true,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell 27 All-in-One EC27250 IN-RD33-16137"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "צבע",
+        "value": "Pearl White Cover + Fabric Speaker Grill"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "All In One PC"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel(R) Core(TM) 7 processor 150U(12MB cache, 10 cores, 12 threads, up to 5.4 GHz)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "32 GB DDR5, 2 x 16 GB, 5200 MT/s"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "0"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "32GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB M.2 PCIe NVMe Solid State Drive"
+      },
+      {
+        "label": "סוג מסך",
+        "value": "27-inch FHD (1920 x 1080) Narrow Border Infinity Touch Display with Wide Viewing Angle"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "Intel Wi-Fi 6E AX211, 2×2, 802.11ax, Bluetooth(R) wireless card"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel Wi-Fi 6E AX211, 2×2, 802.11ax, Bluetooth(R) wireless card"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "Intel® Graphics"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 Ethernet port(1 Gbps)"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "(3) USB 3.2 Gen 1 (5 Gbps) ports with Wake-up support (S3/Modern Standby)"
+      },
+      {
+        "label": "USB 3.0",
+        "value": "1) USB 3.2 Type-C®Gen 2 (10 Gbps) port/(1) USB 3.2 Gen 2 (10 Gbps) port with PowerShare"
+      },
+      {
+        "label": "HDMI",
+        "value": "HDMI-out 1.4b/HDMI-in 1.4"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD Card Reader"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Dell Pro Keyboard and Mouse – KM5221W – Hebrew (QWERTY) – White"
+      },
+      {
+        "label": "הערות 3",
+        "value": "90 Watt AC Adapter"
+      },
+      {
+        "label": "הערות 4",
+        "value": "Reader 3.0, Microphone/Headset Jack, DC"
+      },
+      {
+        "label": "הערות 5",
+        "value": "5MP, IR, Tilt Camera (White)"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3 Yr OnSite Warranty"
+      },
+      {
+        "label": "סינון מסך מגע",
+        "value": "Touch"
+      }
+    ]
+  },
+  {
+    "sku": "IN-RD33-16666",
+    "name": "Dell 27 All-in-One EC27250",
+    "category": "aio",
+    "family": "Dell",
+    "url": "https://cms.co.il/product/dell-27-all-in-one-ec27250-4/",
+    "image": "https://cms.co.il/wp-content/uploads/2025/08/L_25481-600x440.png",
+    "inStock": true,
+    "rawSpec": "Core i7-150U | 1TB | 16GB | NVIDIA MX570A | 27' | Touch | 3Year | Windows 11 Pro",
+    "cpu_type": "Core i7",
+    "cpu_model": "Core i7-150U",
+    "ram_gb": 16,
+    "disk_gb": 1024,
+    "screen_size": "27",
+    "gpu_type": "NVIDIA MX570A",
+    "os": "Windows 11 Pro",
+    "touch": true,
+    "color": null,
+    "warranty_years": 3,
+    "fullSpecs": [
+      {
+        "label": "דגם",
+        "value": "Dell 27 AIO EC27250 IN-RD33-16666"
+      },
+      {
+        "label": "יצרן",
+        "value": "Dell"
+      },
+      {
+        "label": "צבע",
+        "value": "Pearl White Cover + Fabric Speaker Grill"
+      },
+      {
+        "label": "מודל מכונה",
+        "value": "All In One PC"
+      },
+      {
+        "label": "מעבד",
+        "value": "Intel(R) Core(TM) 7 processor 150U(12MB cache, 10 cores, 12 threads, up to 5.4 GHz)"
+      },
+      {
+        "label": "נפח זיכרון",
+        "value": "16 GB, 1 x 16 GB, DDR5, 5200 MT/s"
+      },
+      {
+        "label": "חריצי זיכרון פנויים",
+        "value": "1"
+      },
+      {
+        "label": "תמיכה בזיכרון מקסימלי",
+        "value": "32GB"
+      },
+      {
+        "label": "גודל דיסק",
+        "value": "1TB M.2 PCIe NVMe Solid State Drive"
+      },
+      {
+        "label": "סוג מסך",
+        "value": "27-inch FHD (1920 x 1080) Narrow Border Infinity Touch Display with Wide Viewing Angle"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "Intel Wi-Fi 6E AX211, 2×2, 802.11ax, Bluetooth(R) wireless card"
+      },
+      {
+        "label": "Wireless",
+        "value": "Intel Wi-Fi 6E AX211, 2×2, 802.11ax, Bluetooth(R) wireless card"
+      },
+      {
+        "label": "כרטיס גרפי",
+        "value": "NVIDIA GeForce MX570A with 2GB GDDR6 graphics memory"
+      },
+      {
+        "label": "RJ-45",
+        "value": "RJ45 Ethernet port(1 Gbps)"
+      },
+      {
+        "label": "USB 2.0",
+        "value": "(3) USB 3.2 Gen 1 (5 Gbps) ports with Wake-up support (S3/Modern Standby)"
+      },
+      {
+        "label": "USB 3.0",
+        "value": "1) USB 3.2 Type-C®Gen 2 (10 Gbps) port/(1) USB 3.2 Gen 2 (10 Gbps) port with PowerShare"
+      },
+      {
+        "label": "HDMI",
+        "value": "HDMI-out 1.4b/HDMI-in 1.4"
+      },
+      {
+        "label": "מערכת הפעלה",
+        "value": "Windows 11 Pro, English, Hebrew"
+      },
+      {
+        "label": "הערות 1",
+        "value": "SD Card Reader"
+      },
+      {
+        "label": "הערות 2",
+        "value": "Dell Pro Keyboard and Mouse – KM5221W – Hebrew (QWERTY) – White"
+      },
+      {
+        "label": "הערות 3",
+        "value": "90 Watt AC Adapter"
+      },
+      {
+        "label": "הערות 4",
+        "value": "Reader 3.0, Microphone/Headset Jack, DC"
+      },
+      {
+        "label": "הערות 5",
+        "value": "5MP, IR, Tilt Camera (White)"
+      },
+      {
+        "label": "משך האחריות",
+        "value": "שלוש שנים אחריות יצרן באתר הלקוח"
+      },
+      {
+        "label": "סוג האחריות",
+        "value": "Dell 3 Yr OnSite Warranty"
+      },
+      {
+        "label": "סינון מסך מגע",
+        "value": "Touch"
+      }
+    ]
   }
 ]
