@@ -29,10 +29,16 @@ body {
 }
 
 .site-header {
+  position: relative;
   background: linear-gradient(135deg, var(--brand), var(--brand-dark));
   color: #fff;
   padding: 16px 16px 14px;
   text-align: center;
+  overflow: hidden;
+}
+
+.site-header-bg {
+  display: none;
 }
 
 .site-header h1 {
@@ -75,6 +81,39 @@ body {
 
 .mobile-only {
   display: none;
+}
+
+/* מ-900px ומעלה יש מקום להציג את באנר הרקע המלא (שנועד לפורמט רחב-מסך) */
+@media (min-width: 900px) {
+  .site-header {
+    background: #04213f;
+    padding: 0;
+  }
+
+  .site-header-bg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .site-header-content {
+    position: absolute;
+    inset: 0;
+    left: 36%;
+    right: 19%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .site-header h1 {
+    font-size: clamp(1.3rem, 0.9rem + 1.4vw, 2rem);
+  }
+
+  .subtitle {
+    font-size: clamp(0.75rem, 0.6rem + 0.5vw, 0.92rem);
+  }
 }
 
 .layout {
