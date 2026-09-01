@@ -1,0 +1,62 @@
+name: Update catalog and deploy
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # 03:00 UTC = כ-5-6 בבוקר בישראל, לפי שעון קיץ/חורף
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci
+
+      - name: סריקת קטלוג Dell מ-cms.co.il
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: npm run scrape
+
+      - name: קומיט לקטלוג מעודכן (אם יש שינוי)
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add site/data/products.json
+          if ! git diff --cached --quiet; then
+            git commit -m "עדכון אוטומטי של קטלוג Dell"
+            git push
+          else
+            echo "אין שינוי בקטלוג - לא בוצע קומיט"
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: "./site"
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
