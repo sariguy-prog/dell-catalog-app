@@ -30,11 +30,11 @@ const scaled = (v) => Math.round(v * SCALE);
 
 // אזור הכיסוי - מותאם לבאנר "חברי מועדון יקרים" (6750x1350). בבאנר אחר יש
 // לכוון את הערכים האלה (יחסית לרוחב/גובה תמונת המקור המקורית, לא ל-2400).
-const rectX = scaled(2600);
+const rectX = scaled(2700);
 const rectY = scaled(-450);
-const rectW = scaled(2800);
+const rectW = scaled(2700);
 const rectH = scaled(1450);
-const blur = scaled(100);
+const blur = scaled(40);
 
 const scrimSvg = `
 <svg width="${TARGET_W}" height="${TARGET_H}" xmlns="http://www.w3.org/2000/svg">
