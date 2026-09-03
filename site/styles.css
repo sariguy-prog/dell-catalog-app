@@ -287,20 +287,10 @@ body {
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
 }
 
-.product-card.selected {
-  outline: 2px solid var(--brand);
-}
-
 .card-top {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
-}
-
-.select-checkbox {
-  width: 20px;
-  height: 20px;
-  cursor: pointer;
 }
 
 .recommended-badge {
@@ -448,42 +438,8 @@ body {
   padding: 60px 20px;
 }
 
-.selection-bar[hidden] {
-  display: none;
-}
-
 .products-grid[hidden] {
   display: none;
-}
-
-.selection-bar {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background: #fff;
-  border-top: 1px solid var(--border);
-  padding: 12px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  box-shadow: 0 -4px 14px rgba(0, 0, 0, 0.08);
-  z-index: 20;
-}
-
-.selection-count {
-  font-weight: 700;
-}
-
-.selection-actions {
-  display: flex;
-  gap: 10px;
-}
-
-.selection-actions .whatsapp-btn {
-  width: auto;
-  padding: 10px 20px;
 }
 
 .modal-overlay {
@@ -638,14 +594,5 @@ body {
   .filters-panel-inner {
     max-height: 90vh;
     margin-top: 6vh;
-  }
-
-  .selection-bar {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .selection-actions {
-    flex-direction: column;
   }
 }

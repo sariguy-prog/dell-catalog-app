@@ -111,7 +111,6 @@ const state = {
   activeFilters: {}, // key -> Set of selected values
   touchOnly: false,
   searchText: "",
-  selectedSkus: new Set(),
 };
 
 function currentCategoryConfig() {
@@ -134,13 +133,6 @@ function buildWhatsappUrl(text) {
 
 function singleProductMessage(p) {
   return `שלום, אני מעוניין בהצעת מחיר עבור: ${p.name} (מק"ט ${p.sku}), עם המפרט: ${specListForMessage(p)}`;
-}
-
-function multiProductMessage(products) {
-  const lines = products.map(
-    (p, i) => `${i + 1}. ${p.name} (מק"ט ${p.sku}) - ${specListForMessage(p)}`
-  );
-  return `שלום, אני מעוניין בהצעת מחיר עבור המוצרים הבאים:\n${lines.join("\n")}`;
 }
 
 async function loadData() {
@@ -214,13 +206,11 @@ function renderCategoryTabs() {
       state.activeFilters = {};
       state.touchOnly = false;
       state.searchText = "";
-      state.selectedSkus.clear();
       const searchInput = document.getElementById("searchInput");
       if (searchInput) searchInput.value = "";
       renderCategoryTabs();
       renderFilterFields();
       renderProducts();
-      renderSelectionBar();
     });
     container.appendChild(btn);
   }
@@ -344,25 +334,9 @@ function matchesFilters(p) {
 function createProductCard(p) {
   const card = document.createElement("div");
   card.className = "product-card";
-  if (state.selectedSkus.has(p.sku)) card.classList.add("selected");
 
   const top = document.createElement("div");
   top.className = "card-top";
-
-  const checkbox = document.createElement("input");
-  checkbox.type = "checkbox";
-  checkbox.className = "select-checkbox";
-  checkbox.checked = state.selectedSkus.has(p.sku);
-  checkbox.addEventListener("change", () => {
-    if (checkbox.checked) {
-      state.selectedSkus.add(p.sku);
-    } else {
-      state.selectedSkus.delete(p.sku);
-    }
-    card.classList.toggle("selected", checkbox.checked);
-    renderSelectionBar();
-  });
-  top.appendChild(checkbox);
 
   if (state.recommendedSkus.has(p.sku)) {
     const badge = document.createElement("span");
@@ -502,26 +476,6 @@ function renderProducts() {
   grid.hidden = filtered.length === 0;
 }
 
-function renderSelectionBar() {
-  const bar = document.getElementById("selectionBar");
-  const count = document.getElementById("selectionCount");
-  const sendBtn = document.getElementById("sendSelectionBtn");
-
-  if (state.selectedSkus.size === 0) {
-    bar.hidden = true;
-    return;
-  }
-
-  bar.hidden = false;
-  count.textContent = `${state.selectedSkus.size} מוצרים נבחרו`;
-  sendBtn.textContent = `בקשו הצעה על ${state.selectedSkus.size} מוצרים נבחרים`;
-
-  sendBtn.onclick = () => {
-    const selectedProducts = state.products.filter((p) => state.selectedSkus.has(p.sku));
-    window.open(buildWhatsappUrl(multiProductMessage(selectedProducts)), "_blank", "noopener");
-  };
-}
-
 function setupSearch() {
   const input = document.getElementById("searchInput");
   input.addEventListener("input", () => {
@@ -540,14 +494,6 @@ function setupClearFilters() {
       cb.checked = false;
     });
     renderProducts();
-  });
-}
-
-function setupSelectionBar() {
-  document.getElementById("clearSelectionBtn").addEventListener("click", () => {
-    state.selectedSkus.clear();
-    renderProducts();
-    renderSelectionBar();
   });
 }
 
@@ -574,10 +520,8 @@ async function init() {
   renderCategoryTabs();
   renderFilterFields();
   renderProducts();
-  renderSelectionBar();
   setupSearch();
   setupClearFilters();
-  setupSelectionBar();
   setupMobileFilters();
   setupModal();
 }
