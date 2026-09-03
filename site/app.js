@@ -3,7 +3,6 @@ const WHATSAPP_NUMBER = "972506476817";
 const LAPTOP_FILTER_FIELDS = [
   { key: "family", label: "משפחת מוצר" },
   { key: "cpu_type", label: "סוג מעבד" },
-  { key: "cpu_model", label: "דגם מעבד" },
   { key: "ram_gb", label: "זיכרון (RAM)", format: (v) => `${v}GB` },
   { key: "disk_gb", label: "אחסון (דיסק)", format: (v) => (v >= 1024 ? `${v / 1024}TB` : `${v}GB`) },
   { key: "screen_size", label: "גודל מסך", format: (v) => `${v}"` },
