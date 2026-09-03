@@ -217,7 +217,24 @@ body {
   gap: 6px;
   max-height: 180px;
   overflow-y: auto;
-  padding-right: 2px;
+  padding-right: 6px;
+  /* direction: ltr מזיז את פס הגלילה של הדפדפן לצד ימין (במקום שמאל, ברירת המחדל ב-RTL) */
+  direction: ltr;
+  scrollbar-width: thin;
+  scrollbar-color: var(--brand) transparent;
+}
+
+.checkbox-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.checkbox-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.checkbox-list::-webkit-scrollbar-thumb {
+  background: var(--brand);
+  border-radius: 999px;
 }
 
 .checkbox-list label {
@@ -226,6 +243,8 @@ body {
   gap: 8px;
   font-size: 0.88rem;
   cursor: pointer;
+  /* מחזיר את התוכן עצמו לכיוון RTL תקין, למרות שהמכל הפך ל-ltr לצורך פס הגלילה */
+  direction: rtl;
 }
 
 .checkbox-list input {
