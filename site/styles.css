@@ -107,19 +107,11 @@ body {
     justify-content: center;
   }
 
-  /* גודל גופן יחסי לרוחב התצוגה (vw), כמו התמונה עצמה (width:100%) - כך
-     שהמלל שלנו גדל/קטן באותו יחס בדיוק כמו הבאנר, ולא "נשאר קטן" מולו
-     במסכים רחבים מאוד */
-  .site-header h1 {
-    font-size: clamp(1.3rem, 2.1vw, 3.2rem);
-  }
-
-  .subtitle {
-    font-size: clamp(0.75rem, 0.85vw, 1.05rem);
-  }
-
-  .header-notice {
-    font-size: clamp(0.75rem, 0.75vw, 0.95rem);
+  /* הכיתוב כבר מוטמע בתוך תמונת הבאנר עצמה, אז מוסתר כאן כדי לא להכפיל טקסט מעליה */
+  .site-header h1,
+  .site-header .subtitle,
+  .site-header .header-notice {
+    display: none;
   }
 }
 
